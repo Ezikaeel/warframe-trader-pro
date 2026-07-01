@@ -1,24 +1,51 @@
-// 🚀 WARFRAME ENGINE vNEXT (SMART PRICE FALLBACK + ARCANE + CLEAN VIEW)
-
+const express = require("express");
 const axios = require("axios");
+const fs = require("fs");
 
+const app = express();
+
+// -----------------------------
+// URLS
+// -----------------------------
 const ITEMS_URL = "https://api.warframe.market/v2/items";
 const ORDERS_RECENT_URL = "https://api.warframe.market/v2/orders/recent";
 const ORDERS_ITEM_URL = "https://api.warframe.market/v2/orders/itemId/";
 
 // -----------------------------
-// CACHE
+// CACHE FILE
 // -----------------------------
-let items = [];
-let orders = [];
-let priceMap = new Map();
+const CACHE_FILE = "./price-cache.json";
+
+// -----------------------------
+// SERVER
+// -----------------------------
+app.get("/", (req, res) => {
+  res.send("🔥 Warframe Engine ONLINE - FARM DASHBOARD ativo");
+});
+
+// -----------------------------
+// LOAD CACHE
+// -----------------------------
+function loadCache() {
+  if (!fs.existsSync(CACHE_FILE)) return {};
+  return JSON.parse(fs.readFileSync(CACHE_FILE, "utf-8"));
+}
+
+// -----------------------------
+// SAVE CACHE
+// -----------------------------
+function saveCache(cache) {
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
+let priceCache = loadCache();
 
 // -----------------------------
 // FETCH ITEMS
 // -----------------------------
 async function fetchItems() {
   const res = await axios.get(ITEMS_URL);
-  return res.data.data || res.data || [];
+  return res.data.data || [];
 }
 
 // -----------------------------
@@ -26,7 +53,7 @@ async function fetchItems() {
 // -----------------------------
 async function fetchOrders() {
   const res = await axios.get(ORDERS_RECENT_URL);
-  return res.data.data || res.data || [];
+  return res.data.data || [];
 }
 
 // -----------------------------
@@ -65,51 +92,45 @@ function getCategory(item) {
   const tags = getTags(item);
   const has = (t) => tags.includes(t);
 
-  // WARFRAME PRIME
+  if (has("arcane") || has("arcane_enhancement")) return "ARCANES";
+
   if (has("prime") && has("warframe")) {
     if (has("chassis") || has("neuroptics") || has("systems") || has("blueprint")) {
       return "WARFRAME_PRIME_PART";
     }
-    if (has("set")) return "WARFRAME_PRIME_SET";
+    return "WARFRAME_PRIME_SET";
   }
 
-  // WEAPONS PRIME
   if (has("prime") && has("weapon")) {
     if (has("set")) return "WEAPON_PRIME_SET";
     return "WEAPON_PRIME_PART";
   }
 
-  // MODS
-  if (
-    has("mod") ||
-    has("archon") ||
-    has("riven") ||
-    has("galvanized") ||
-    has("primed")
-  ) {
+  if (has("mod") || has("archon") || has("riven") || has("galvanized") || has("primed")) {
     if (has("riven")) return "MOD_RIVEN";
     if (has("archon")) return "MOD_ARCHON";
     return "MODS";
-  }
-
-  // ARCANE
-  if (has("arcane") || has("arcane_enhancement")) {
-    return "ARCANES";
   }
 
   return "OTHER";
 }
 
 // -----------------------------
-// SMART PRICE (RECENT + FALLBACK)
+// SMART PRICE SYSTEM
 // -----------------------------
 async function getPriceForItem(itemId, recentMap) {
-  // 1. RECENT FIRST
+  // 1. cache local
+  if (priceCache[itemId]) {
+    return priceCache[itemId];
+  }
+
+  // 2. recent API
   if (recentMap.has(itemId)) {
+    priceCache[itemId] = recentMap.get(itemId);
     return recentMap.get(itemId);
   }
 
-  // 2. FALLBACK ITEM ID
+  // 3. fallback itemId
   try {
     const res = await axios.get(`${ORDERS_ITEM_URL}${itemId}`);
 
@@ -126,6 +147,11 @@ async function getPriceForItem(itemId, recentMap) {
       }
     }
 
+    if (best) {
+      priceCache[itemId] = best;
+      saveCache(priceCache);
+    }
+
     return best;
   } catch (err) {
     return null;
@@ -133,18 +159,18 @@ async function getPriceForItem(itemId, recentMap) {
 }
 
 // -----------------------------
-// ENGINE
+// ENGINE CORE
 // -----------------------------
-async function run() {
-  console.log("🚀 ENGINE SMART PRICE + ARCANE + CLEAN VIEW");
+async function runEngine() {
+  console.log("🚀 ENGINE ONLINE (SMART + CACHE + ARCANE)");
 
-  items = await fetchItems();
-  orders = await fetchOrders();
+  const items = await fetchItems();
+  const orders = await fetchOrders();
 
   console.log("📦 items:", items.length);
-  console.log("💰 recent orders:", orders.length);
+  console.log("💰 orders:", orders.length);
 
-  priceMap = buildPriceMap(orders);
+  const recentMap = buildPriceMap(orders);
 
   const grouped = {
     WARFRAME_PRIME_SET: [],
@@ -158,36 +184,26 @@ async function run() {
     OTHER: [],
   };
 
-  // -----------------------------
-  // PROCESS ITEMS
-  // -----------------------------
   for (const item of items) {
     const id = item.id;
     if (!id) continue;
 
     const category = getCategory(item);
+    const price = await getPriceForItem(id, recentMap);
 
-    const price = await getPriceForItem(id, priceMap);
-
-    const entry = {
+    grouped[category].push({
       name: item.slug || item.name || id,
-      category,
-      price,
-    };
-
-    grouped[category].push(entry);
+      price: price || 0,
+    });
   }
 
   console.log("\n🔥 WARFRAME FARM DASHBOARD\n");
 
-  // -----------------------------
-  // PRINT CLEAN VIEW
-  // -----------------------------
   for (const [cat, list] of Object.entries(grouped)) {
     console.log(`=== ${cat} ===`);
 
     const top = list
-      .sort((a, b) => (b.price || 0) - (a.price || 0))
+      .sort((a, b) => b.price - a.price)
       .slice(0, 20);
 
     if (!top.length) {
@@ -198,32 +214,17 @@ async function run() {
     for (const item of top) {
       console.log(`
 🔥 ${item.name}
-💰 ${item.price ?? "Sem dados"} Platinum
+💰 ${item.price} Platinum
 ⏱ Farm: 15–20 min
-📍 Relíquias: Neo / Axi (auto)
+📍 Relíquias: Neo / Axi
 🎯 Missões: Ukko / Apollo / Hepit
 ★★★★★ Alta demanda
       `);
     }
   }
 
-  // -----------------------------
-  // TOP GLOBAL
-  // -----------------------------
   const all = Object.values(grouped).flat();
 
   const topGlobal = all
-    .sort((a, b) => (b.price || 0) - (a.price || 0))
-    .slice(0, 20);
-
-  console.log("\n🏆 TOP GLOBAL\n");
-
-  for (const item of topGlobal) {
-    console.log(`${item.name} → ${item.price ?? "Sem dados"}p`);
-  }
-}
-
-// -----------------------------
-run().catch(err => {
-  console.error("❌ ERROR:", err);
-});
+    .sort((a, b) => b.price - a.price)
+    .slice(0,
