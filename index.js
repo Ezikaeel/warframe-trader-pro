@@ -3,16 +3,15 @@ const axios = require("axios");
 const fs = require("fs");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
-const ITEMS_URL = "https://api.warframe.market/v2/items";
-const RECENT_URL = "https://api.warframe.market/v2/orders/recent";
+// 🔥 IMPORTANTE: Render fornece a porta automaticamente
+const PORT = process.env.PORT || 3000;
 
 // ---------------- CACHE FILES ----------------
 const CACHE_ITEMS = "./cache_items.json";
 const CACHE_RECENT = "./cache_recent.json";
 
-// ---------------- LOAD CACHE ----------------
+// ---------------- HELPERS ----------------
 function loadCache(file) {
   if (!fs.existsSync(file)) return null;
   return JSON.parse(fs.readFileSync(file, "utf-8"));
@@ -22,23 +21,40 @@ function saveCache(file, data) {
   fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
 
-// ---------------- FETCH ITEMS (1x dia) ----------------
+// ---------------- API ----------------
+const ITEMS_URL = "https://api.warframe.market/v2/items";
+const RECENT_URL = "https://api.warframe.market/v2/orders/recent";
+
+// ---------------- CACHE UPDATE ----------------
 async function updateItemsCache() {
-  const res = await axios.get(ITEMS_URL);
-  saveCache(CACHE_ITEMS, res.data.data || []);
-  console.log("📦 Items cache atualizado");
+  try {
+    const res = await axios.get(ITEMS_URL, {
+      headers: { "User-Agent": "warframe-engine" }
+    });
+
+    saveCache(CACHE_ITEMS, res.data.data || []);
+    console.log("📦 Items cache atualizado");
+  } catch (err) {
+    console.log("❌ erro items cache:", err.message);
+  }
 }
 
-// ---------------- FETCH RECENT (1h) ----------------
 async function updateRecentCache() {
-  const res = await axios.get(RECENT_URL);
-  saveCache(CACHE_RECENT, res.data.data || []);
-  console.log("💰 Recent cache atualizado");
+  try {
+    const res = await axios.get(RECENT_URL, {
+      headers: { "User-Agent": "warframe-engine" }
+    });
+
+    saveCache(CACHE_RECENT, res.data.data || []);
+    console.log("💰 Recent cache atualizado");
+  } catch (err) {
+    console.log("❌ erro recent cache:", err.message);
+  }
 }
 
-// ---------------- PRICE FROM RECENT ----------------
+// ---------------- PRICE LOGIC ----------------
 function getPriceFromRecent(id, recent) {
-  for (const o of recent) {
+  for (const o of recent || []) {
     if (o.item_id === id) {
       return o.platinum || 0;
     }
@@ -46,14 +62,15 @@ function getPriceFromRecent(id, recent) {
   return null;
 }
 
-// ---------------- FALLBACK API ----------------
 async function getPriceFallback(id) {
   try {
     const res = await axios.get(
-      `https://api.warframe.market/v2/orders/itemId/${id}`
+      `https://api.warframe.market/v2/orders/itemId/${id}`,
+      { headers: { "User-Agent": "warframe-engine" } }
     );
 
     const orders = res.data.data || [];
+
     let min = null;
 
     for (const o of orders) {
@@ -76,7 +93,10 @@ async function buildDashboard() {
 
   for (const item of items) {
     const id = item.id;
-    const name = item.slug;
+    if (!id) continue;
+
+    const name = item.slug || "unknown";
+
     const category = (item.tags || []).includes("prime")
       ? "PRIME"
       : "OTHER";
@@ -91,11 +111,10 @@ async function buildDashboard() {
 
     grouped[category].push({
       name,
-      price,
+      price
     });
   }
 
-  // TOP 20
   const result = {};
 
   for (const cat in grouped) {
@@ -129,19 +148,14 @@ app.get("/", async (req, res) => {
   res.send(html);
 });
 
-// ---------------- CRON SIMULADO ----------------
-async function init() {
-  try {
-    await updateItemsCache();
-    await updateRecentCache();
-  } catch (e) {
-    console.log("erro cache inicial", e.message);
-  }
-}
+// ---------------- STARTUP SEGURO (IMPORTANTE) ----------------
+app.listen(PORT, "0.0.0.0", async () => {
+  console.log("🚀 ONLINE PORT:", PORT);
 
-init();
-setInterval(updateRecentCache, 60 * 60 * 1000); // 1h
+  // 🔥 NÃO BLOQUEIA O SERVER
+  updateItemsCache();
+  updateRecentCache();
 
-app.listen(PORT, () => {
-  console.log("🚀 servidor rodando na porta", PORT);
+  // atualiza recent a cada 1h
+  setInterval(updateRecentCache, 60 * 60 * 1000);
 });
