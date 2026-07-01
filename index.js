@@ -8,7 +8,6 @@ const PORT = Number(process.env.PORT || 3000);
 // ================= CACHE =================
 const CACHE_ITEMS = "./cache_items.json";
 const CACHE_RECENT = "./cache_recent.json";
-const CACHE_PRICES = "./cache_prices.json";
 
 // ================= HELPERS =================
 function read(file) {
@@ -28,52 +27,89 @@ function write(file, data) {
 const ITEMS_URL = "https://api.warframe.market/v2/items";
 const RECENT_URL = "https://api.warframe.market/v2/orders/recent";
 
-// ================= UPDATE ITEMS (1x dia) =================
+// ================= CACHE UPDATE =================
 async function updateItems() {
   try {
     const res = await axios.get(ITEMS_URL, { timeout: 20000 });
     write(CACHE_ITEMS, res.data.data || []);
-    console.log("📦 ITEMS CACHE OK");
+    console.log("📦 ITEMS OK");
   } catch (e) {
     console.log("items error:", e.message);
   }
 }
 
-// ================= UPDATE RECENT (1h) =================
 async function updateRecent() {
   try {
     const res = await axios.get(RECENT_URL, { timeout: 20000 });
     write(CACHE_RECENT, res.data.data || []);
-    console.log("💰 RECENT CACHE OK");
+    console.log("💰 RECENT OK");
   } catch (e) {
     console.log("recent error:", e.message);
   }
 }
 
-// ================= PREBUILD PRICES (CRÍTICO) =================
-function buildPrices() {
+// ================= PRICE =================
+function getRecentPrice(id, recent) {
+  const order = (recent || []).find(o => o.item_id === id);
+  return order ? order.platinum : null;
+}
+
+// fallback seguro
+async function getFallbackPrice(id) {
+  try {
+    const res = await axios.get(
+      `https://api.warframe.market/v2/orders/itemId/${id}`,
+      { timeout: 20000 }
+    );
+
+    const orders = res.data.data || [];
+
+    let min = null;
+
+    for (const o of orders) {
+      const price = o.platinum || 0;
+      if (min === null || price < min) {
+        min = price;
+      }
+    }
+
+    return min || 0;
+  } catch {
+    return 0;
+  }
+}
+
+// ================= CATEGORY FIX (REAL) =================
+function getCategory(item) {
+  const name = (item.slug || "").toLowerCase();
+
+  if (name.includes("prime")) return "PRIME SET";
+  if (name.includes("necramech")) return "NECRAMECH";
+  if (name.includes("arcane")) return "ARCANE";
+  if (name.includes("weapon")) return "WEAPON";
+
+  return "OTHER";
+}
+
+// ================= NAME FIX =================
+function getName(item) {
+  return (
+    item.name ||
+    item.slug ||
+    "unknown_item"
+  );
+}
+
+// ================= ENGINE =================
+async function buildDashboard() {
   const items = read(CACHE_ITEMS) || [];
   const recent = read(CACHE_RECENT) || [];
 
-  const prices = {};
-
-  for (const item of items) {
-    const id = item.id;
-    if (!id) continue;
-
-    const order = recent.find(o => o.item_id === id);
-
-    prices[id] = order?.platinum || 0;
+  if (!items.length) {
+    return {
+      SYSTEM: [{ name: "Cache carregando...", price: 0 }]
+    };
   }
-
-  write(CACHE_PRICES, prices);
-  console.log("⚡ PRICES CACHE BUILT");
-}
-
-// ================= ENGINE (FAST ONLY) =================
-function buildDashboard() {
-  const items = read(CACHE_ITEMS) || [];
-  const prices = read(CACHE_PRICES) || {};
 
   const grouped = {};
 
@@ -81,15 +117,21 @@ function buildDashboard() {
     const id = item.id;
     if (!id) continue;
 
-    const category = (item.tags || []).includes("prime")
-      ? "PRIME"
-      : "OTHER";
+    const category = getCategory(item);
+    const name = getName(item);
+
+    let price = getRecentPrice(id, recent);
+
+    // fallback SOMENTE se necessário
+    if (price === null || price === undefined) {
+      price = await getFallbackPrice(id);
+    }
 
     if (!grouped[category]) grouped[category] = [];
 
     grouped[category].push({
-      name: item.slug,
-      price: prices[id] || 0
+      name,
+      price
     });
   }
 
@@ -104,9 +146,9 @@ function buildDashboard() {
   return result;
 }
 
-// ================= ROUTE ULTRA RÁPIDA =================
-app.get("/", (req, res) => {
-  const data = buildDashboard();
+// ================= ROUTE =================
+app.get("/", async (req, res) => {
+  const data = await buildDashboard();
 
   let html = `
   <html>
@@ -141,20 +183,14 @@ app.get("/", (req, res) => {
   res.send(html);
 });
 
-// ================= STARTUP (NÃO BLOQUEIA) =================
+// ================= START =================
 app.listen(PORT, "0.0.0.0", () => {
   console.log("🚀 SERVER RUNNING:", PORT);
 
-  // 🔥 roda tudo em background
   setTimeout(async () => {
     await updateItems();
     await updateRecent();
-    buildPrices();
   }, 1000);
 
-  // refresh leve
-  setInterval(async () => {
-    await updateRecent();
-    buildPrices();
-  }, 60 * 60 * 1000);
+  setInterval(updateRecent, 60 * 60 * 1000);
 });
