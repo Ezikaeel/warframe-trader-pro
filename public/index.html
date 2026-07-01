@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Warframe Market Dashboard</title>
-  <style>
-    body {
-      font-family: Arial;
-      background: #0d0d0d;
-      color: #fff;
-      margin: 0;
-      padding: 20px;
-    }
+<meta charset="UTF-8">
+<title>Warframe Dashboard</title>
 
-    h1 {
-      text-align: center;
-      color: #00ff99;
-    }
+<style>
+body {
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial;
+  padding: 20px;
+}
 
-    .category {
-      margin-top: 30px;
-    }
+h1 {
+  text-align: center;
+  color: #00ff99;
+}
 
-    .item {
-      background: #1a1a1a;
-      padding: 15px;
-      margin: 10px 0;
-      border-radius: 10px;
-    }
+.item {
+  background: #1a1a1a;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
-    .title {
-      font-size: 18px;
-      font-weight: bold;
-      color: #00ffcc;
-    }
+.title {
+  font-weight: bold;
+  color: #00ffcc;
+}
 
-    .price {
-      color: gold;
-    }
+.details {
+  display: none;
+  margin-top: 10px;
+  opacity: 0.9;
+}
 
-    .info {
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  </style>
+.price {
+  color: gold;
+}
+</style>
+
 </head>
 
 <body>
-  <h1>🔥 WARFRAME FARM DASHBOARD</h1>
 
-  <div id="app"></div>
+<h1>🔥 WARFRAME FARM DASHBOARD</h1>
+
+<div id="app"></div>
 
 <script>
-async function loadData() {
+
+async function load() {
   const res = await fetch("/data");
   const data = await res.json();
 
@@ -59,33 +59,44 @@ async function loadData() {
   app.innerHTML = "";
 
   for (const cat in data) {
-    const section = document.createElement("div");
-    section.className = "category";
 
-    section.innerHTML = `<h2>=== ${cat} ===</h2>`;
+    const catTitle = document.createElement("h2");
+    catTitle.innerText = "=== " + cat + " ===";
+    app.appendChild(catTitle);
 
     data[cat].slice(0, 20).forEach(item => {
+
       const div = document.createElement("div");
       div.className = "item";
 
-      div.innerHTML = `
-        <div class="title">🔥 ${item.name}</div>
-        <div class="price">💰 ${item.price} Platinum</div>
-        <div class="info">⏱ Farm: 15-20 min</div>
-        <div class="info">📍 Relíquias: Neo / Axi (auto sugerido)</div>
-        <div class="info">🎯 Missões: Ukko / Apollo / Hepit</div>
-        <div class="info">★★★★★ Alta demanda</div>
+      const details = `
+        <div class="details">
+          💰 ${item.price ?? "Sem dados"} Platinum <br>
+          ⏱ Farm: 15–20 min <br>
+          📍 Relíquias: Neo / Axi <br>
+          🎯 Missões: Ukko / Apollo / Hepit <br>
+          ★★★★★ Alta demanda
+        </div>
       `;
 
-      section.appendChild(div);
-    });
+      div.innerHTML = `
+        <div class="title">▶ ${item.name}</div>
+        ${details}
+      `;
 
-    app.appendChild(section);
+      div.onclick = () => {
+        const d = div.querySelector(".details");
+        d.style.display = d.style.display === "block" ? "none" : "block";
+      };
+
+      app.appendChild(div);
+    });
   }
 }
 
-loadData();
-setInterval(loadData, 30000); // atualiza sozinho
+load();
+setInterval(load, 30000);
+
 </script>
 
 </body>
