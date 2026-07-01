@@ -1,196 +1,164 @@
 const express = require("express");
 const axios = require("axios");
-const fs = require("fs");
 
 const app = express();
-const PORT = Number(process.env.PORT || 3000);
 
-// ================= CACHE =================
-const CACHE_ITEMS = "./cache_items.json";
-const CACHE_RECENT = "./cache_recent.json";
+// -----------------------------
+// FRONTEND
+// -----------------------------
+app.use(express.static("public"));
 
-// ================= HELPERS =================
-function read(file) {
-  try {
-    if (!fs.existsSync(file)) return null;
-    return JSON.parse(fs.readFileSync(file, "utf-8"));
-  } catch {
-    return null;
-  }
-}
-
-function write(file, data) {
-  fs.writeFileSync(file, JSON.stringify(data, null, 2));
-}
-
-// ================= API =================
+// -----------------------------
+// API URLS
+// -----------------------------
 const ITEMS_URL = "https://api.warframe.market/v2/items";
-const RECENT_URL = "https://api.warframe.market/v2/orders/recent";
+const ORDERS_URL = "https://api.warframe.market/v2/orders/recent";
 
-// ================= CACHE UPDATE =================
-async function updateItems() {
-  try {
-    const res = await axios.get(ITEMS_URL, { timeout: 20000 });
-    write(CACHE_ITEMS, res.data.data || []);
-    console.log("📦 ITEMS OK");
-  } catch (e) {
-    console.log("items error:", e.message);
-  }
+// -----------------------------
+// CACHE
+// -----------------------------
+let items = [];
+let orders = [];
+let priceMap = new Map();
+
+// -----------------------------
+// FETCH ITEMS
+// -----------------------------
+async function fetchItems() {
+  const res = await axios.get(ITEMS_URL);
+  return res.data.data || res.data || [];
 }
 
-async function updateRecent() {
-  try {
-    const res = await axios.get(RECENT_URL, { timeout: 20000 });
-    write(CACHE_RECENT, res.data.data || []);
-    console.log("💰 RECENT OK");
-  } catch (e) {
-    console.log("recent error:", e.message);
-  }
+// -----------------------------
+// FETCH ORDERS
+// -----------------------------
+async function fetchOrders() {
+  const res = await axios.get(ORDERS_URL);
+  return res.data.data || res.data || [];
 }
 
-// ================= PRICE =================
-function getRecentPrice(id, recent) {
-  const order = (recent || []).find(o => o.item_id === id);
-  return order ? order.platinum : null;
-}
+// -----------------------------
+// PRICE MAP
+// -----------------------------
+function buildPriceMap(orders) {
+  const map = new Map();
 
-// fallback seguro
-async function getFallbackPrice(id) {
-  try {
-    const res = await axios.get(
-      `https://api.warframe.market/v2/orders/itemId/${id}`,
-      { timeout: 20000 }
-    );
+  for (const o of orders) {
+    const id = o.item_id || o.itemId || o.id;
+    const price = o.platinum ?? o.price ?? 0;
 
-    const orders = res.data.data || [];
+    if (!id) continue;
 
-    let min = null;
-
-    for (const o of orders) {
-      const price = o.platinum || 0;
-      if (min === null || price < min) {
-        min = price;
-      }
+    if (!map.has(id) || price < map.get(id)) {
+      map.set(id, price);
     }
-
-    return min || 0;
-  } catch {
-    return 0;
   }
+
+  return map;
 }
 
-// ================= CATEGORY FIX (REAL) =================
-function getCategory(item) {
-  const name = (item.slug || "").toLowerCase();
+// -----------------------------
+// TAGS
+// -----------------------------
+function getTags(item) {
+  if (!item) return [];
+  if (Array.isArray(item.tags)) return item.tags.map(t => t.toLowerCase());
+  return [];
+}
 
-  if (name.includes("prime")) return "PRIME SET";
-  if (name.includes("necramech")) return "NECRAMECH";
-  if (name.includes("arcane")) return "ARCANE";
-  if (name.includes("weapon")) return "WEAPON";
+// -----------------------------
+// CATEGORY ENGINE
+// -----------------------------
+function getCategory(item) {
+  const tags = getTags(item);
+  const has = (t) => tags.includes(t);
+
+  if (has("prime") && has("warframe")) {
+    if (has("chassis") || has("neuroptics") || has("systems") || has("blueprint"))
+      return "WARFRAME_PRIME_PART";
+
+    if (has("set")) return "WARFRAME_PRIME_SET";
+  }
+
+  if (has("prime") && has("weapon")) {
+    if (has("set")) return "WEAPON_PRIME_SET";
+    return "WEAPON_PRIME_PART";
+  }
+
+  if (has("mod") || has("archon") || has("riven")) {
+    if (has("riven")) return "MOD_RIVEN";
+    if (has("archon")) return "MOD_ARCHON";
+    return "MODS";
+  }
+
+  if (has("arcane") || has("arcane_enhancement")) {
+    return "ARCANES";
+  }
 
   return "OTHER";
 }
 
-// ================= NAME FIX =================
-function getName(item) {
-  return (
-    item.name ||
-    item.slug ||
-    "unknown_item"
-  );
-}
+// -----------------------------
+// ENGINE RUN
+// -----------------------------
+async function buildData() {
+  items = await fetchItems();
+  orders = await fetchOrders();
 
-// ================= ENGINE =================
-async function buildDashboard() {
-  const items = read(CACHE_ITEMS) || [];
-  const recent = read(CACHE_RECENT) || [];
+  priceMap = buildPriceMap(orders);
 
-  if (!items.length) {
-    return {
-      SYSTEM: [{ name: "Cache carregando...", price: 0 }]
-    };
-  }
-
-  const grouped = {};
+  const grouped = {
+    WARFRAME_PRIME_SET: [],
+    WARFRAME_PRIME_PART: [],
+    WEAPON_PRIME_SET: [],
+    WEAPON_PRIME_PART: [],
+    MODS: [],
+    MOD_ARCHON: [],
+    MOD_RIVEN: [],
+    ARCANES: [],
+    OTHER: [],
+  };
 
   for (const item of items) {
     const id = item.id;
     if (!id) continue;
 
     const category = getCategory(item);
-    const name = getName(item);
-
-    let price = getRecentPrice(id, recent);
-
-    // fallback SOMENTE se necessário
-    if (price === null || price === undefined) {
-      price = await getFallbackPrice(id);
-    }
-
-    if (!grouped[category]) grouped[category] = [];
+    const price = priceMap.get(id) || 0;
 
     grouped[category].push({
-      name,
-      price
+      name: item.slug.replace(/_/g, " "),
+      price,
+      category,
     });
   }
 
-  const result = {};
-
-  for (const cat in grouped) {
-    result[cat] = grouped[cat]
-      .sort((a, b) => b.price - a.price)
-      .slice(0, 20);
-  }
-
-  return result;
+  return grouped;
 }
 
-// ================= ROUTE =================
-app.get("/", async (req, res) => {
-  const data = await buildDashboard();
-
-  let html = `
-  <html>
-  <head>
-    <title>Warframe Farm Dashboard</title>
-    <style>
-      body { font-family: Arial; background:#111; color:#fff; padding:20px; }
-      h1 { color:#00ff99; }
-      h2 { color:#ffcc00; margin-top:25px; }
-      .item { background:#222; padding:10px; margin:8px 0; border-radius:8px; }
-    </style>
-  </head>
-  <body>
-    <h1>🔥 WARFRAME FARM DASHBOARD</h1>
-  `;
-
-  for (const cat in data) {
-    html += `<h2>${cat}</h2>`;
-
-    data[cat].forEach(i => {
-      html += `
-        <div class="item">
-          🔥 ${i.name}<br/>
-          💰 ${i.price} Platinum
-        </div>
-      `;
-    });
+// -----------------------------
+// API
+// -----------------------------
+app.get("/data", async (req, res) => {
+  try {
+    const data = await buildData();
+    res.json(data);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "failed" });
   }
-
-  html += "</body></html>";
-
-  res.send(html);
 });
 
-// ================= START =================
-app.listen(PORT, "0.0.0.0", () => {
-  console.log("🚀 SERVER RUNNING:", PORT);
+// -----------------------------
+// HOME
+// -----------------------------
+app.get("/", (req, res) => {
+  res.send("Warframe Engine ONLINE 🚀");
+});
 
-  setTimeout(async () => {
-    await updateItems();
-    await updateRecent();
-  }, 1000);
+// -----------------------------
+const PORT = process.env.PORT || 3000;
 
-  setInterval(updateRecent, 60 * 60 * 1000);
+app.listen(PORT, () => {
+  console.log("Servidor rodando na porta", PORT);
 });
