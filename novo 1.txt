@@ -1,0 +1,186 @@
+// 🚀 WARFRAME MARKET ENGINE vFINAL (TAGS-ONLY + ID SAFE)
+
+const axios = require("axios");
+
+const ITEMS_URL = "https://api.warframe.market/v2/items";
+const ORDERS_URL = "https://api.warframe.market/v2/orders/recent";
+
+// -----------------------------
+// CACHE
+// -----------------------------
+let items = [];
+let orders = [];
+let priceMap = new Map();
+
+// -----------------------------
+// FETCH ITEMS
+// -----------------------------
+async function fetchItems() {
+  const res = await axios.get(ITEMS_URL);
+  return res.data.data || res.data || [];
+}
+
+// -----------------------------
+// FETCH ORDERS
+// -----------------------------
+async function fetchOrders() {
+  const res = await axios.get(ORDERS_URL);
+  return res.data.data || res.data || [];
+}
+
+// -----------------------------
+// PRICE MAP (SAFE)
+// -----------------------------
+function buildPriceMap(orders) {
+  const map = new Map();
+
+  for (const o of orders) {
+    const id = o.item_id || o.itemId || o.id;
+    const price = o.platinum ?? o.price ?? 0;
+
+    if (!id) continue;
+
+    if (!map.has(id) || price < map.get(id)) {
+      map.set(id, price);
+    }
+  }
+
+  return map;
+}
+
+// -----------------------------
+// SAFE TAG NORMALIZER
+// -----------------------------
+function getTags(item) {
+  if (!item) return [];
+  if (Array.isArray(item.tags)) return item.tags.map(t => t.toLowerCase());
+  return [];
+}
+
+// -----------------------------
+// CATEGORY ENGINE (TAGS ONLY)
+// -----------------------------
+function getCategory(item) {
+  const tags = getTags(item);
+
+  const has = (t) => tags.includes(t);
+
+  // ---------------- WARFRAME PRIME ----------------
+  if (has("prime") && has("warframe")) {
+    if (
+      has("chassis") ||
+      has("neuroptics") ||
+      has("systems") ||
+      has("blueprint")
+    ) {
+      return "WARFRAME_PRIME_PART";
+    }
+
+    if (has("set")) {
+      return "WARFRAME_PRIME_SET";
+    }
+  }
+
+  // ---------------- WEAPON PRIME ----------------
+  if (has("prime") && has("weapon")) {
+    if (has("set")) return "WEAPON_PRIME_SET";
+    return "WEAPON_PRIME_PART";
+  }
+
+  // ---------------- MODS ----------------
+  if (has("mod") || has("primed") || has("galvanized") || has("archon") || has("riven")) {
+    if (has("riven")) return "MOD_RIVEN";
+    if (has("archon")) return "MOD_ARCHON";
+    if (has("galvanized")) return "MOD_GALVANIZED";
+    if (has("primed")) return "MOD_PRIMED";
+    return "MODS";
+  }
+
+  return "OTHER";
+}
+
+// -----------------------------
+// ENGINE
+// -----------------------------
+async function run() {
+  console.log("🚀 ENGINE FIX ID + TAGS");
+
+  items = await fetchItems();
+  orders = await fetchOrders();
+
+  console.log("📦 items:", items.length);
+  console.log("💰 prices:", orders.length);
+
+  priceMap = buildPriceMap(orders);
+
+  const grouped = {
+    WARFRAME_PRIME_SET: [],
+    WARFRAME_PRIME_PART: [],
+    WEAPON_PRIME_SET: [],
+    WEAPON_PRIME_PART: [],
+    MOD_PRIMED: [],
+    MOD_GALVANIZED: [],
+    MOD_ARCHON: [],
+    MOD_RIVEN: [],
+    MODS: [],
+    OTHER: [],
+  };
+
+  // -----------------------------
+  // PROCESS ITEMS
+  // -----------------------------
+  for (const item of items) {
+    const id = item.id;
+    if (!id) continue;
+
+    const category = getCategory(item);
+    const price = priceMap.get(id) || 0;
+
+    const entry = {
+      id,
+      slug: item.slug,
+      category,
+      price,
+      score: price,
+    };
+
+    grouped[category].push(entry);
+  }
+
+  console.log("\n🔥 ENGINE RUNNING...\n");
+
+  // -----------------------------
+  // PRINT CATEGORIES
+  // -----------------------------
+  for (const [cat, list] of Object.entries(grouped)) {
+    console.log(`=== ${cat} ===`);
+
+    const top = list
+      .sort((a, b) => b.price - a.price)
+      .slice(0, 20);
+
+    if (!top.length) {
+      console.log("vazio\n");
+      continue;
+    }
+
+    console.table(top);
+  }
+
+  // -----------------------------
+  // TOP GLOBAL
+  // -----------------------------
+  const all = Object.values(grouped).flat();
+
+  const topGlobal = all
+    .sort((a, b) => b.price - a.price)
+    .slice(0, 20);
+
+  console.log("🏆 TOP GLOBAL");
+  console.table(topGlobal);
+}
+
+// -----------------------------
+run().catch(err => {
+  console.error("❌ ENGINE ERROR:", err);
+});

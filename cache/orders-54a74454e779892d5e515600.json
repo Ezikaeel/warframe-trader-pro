@@ -1,0 +1,5870 @@
+[
+  {
+    "id": "5d5935e46c570400d6c967d6",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 15,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2019-08-18T11:26:28Z",
+    "updatedAt": "2026-04-03T10:46:29Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d44c744b1ddfe03febf3b14",
+      "ingameName": "-SiIence-",
+      "slug": "siience",
+      "reputation": 85,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:50:01Z"
+    }
+  },
+  {
+    "id": "5fa35843736a0402456508e2",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2020-11-05T01:41:23Z",
+    "updatedAt": "2020-11-05T01:41:23Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57539dc0d3ffb64d0bc7df9c",
+      "ingameName": "ragenuke",
+      "slug": "ragenuke",
+      "avatar": "user/avatar/57539dc0d3ffb64d0bc7df9c.png?da86359fc000ba3a9df10f1f18934809",
+      "reputation": 231,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:11:34Z"
+    }
+  },
+  {
+    "id": "5fff8511439a87018debb6fe",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2021-01-13T23:41:05Z",
+    "updatedAt": "2025-07-11T19:59:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e955ba804e8ca0834ee4aa5",
+      "ingameName": "Dinovu",
+      "slug": "dinovu",
+      "avatar": "user/avatar/5e955ba804e8ca0834ee4aa5.png?e0ec10b27bd9b9eeec45faeea352f4d0",
+      "reputation": 666,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:12:42Z"
+    }
+  },
+  {
+    "id": "601318201c9894006c8cc67b",
+    "type": "sell",
+    "platinum": 29,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2021-01-28T20:01:36Z",
+    "updatedAt": "2021-02-28T10:35:22Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c17646c9953140157e939cf",
+      "ingameName": "Shaelas",
+      "slug": "shaelas",
+      "avatar": "user/avatar/5c17646c9953140157e939cf.png?8327e627e4642ddc7e5ab66fe7bf6c34",
+      "reputation": 1011,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:29:29Z"
+    }
+  },
+  {
+    "id": "61da8e2c4c545b116cb1236d",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2022-01-09T07:26:36Z",
+    "updatedAt": "2025-01-22T18:58:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5fdbc8ce7d5de10182964275",
+      "ingameName": "GasPimienta",
+      "slug": "gaspimienta",
+      "avatar": "user/avatar/5fdbc8ce7d5de10182964275.png?a14740b147e26a82990c098a5a269525",
+      "reputation": 19,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "es",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:50:54Z"
+    }
+  },
+  {
+    "id": "61f523d64f1270034458064d",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 60,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2022-01-29T11:24:06Z",
+    "updatedAt": "2023-08-26T10:37:12Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "598b11ef0f313943dad03484",
+      "ingameName": "UreiFen",
+      "slug": "ureifen",
+      "avatar": "user/avatar/598b11ef0f313943dad03484.png?9b57d254d7614ceed157fa2888dd3f11",
+      "reputation": 1449,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:54:42Z"
+    }
+  },
+  {
+    "id": "624355dacc438d004ee8ac36",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 28,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2022-03-29T18:54:18Z",
+    "updatedAt": "2025-01-21T11:17:28Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5fa6a9e96ff36604a3651657",
+      "ingameName": "Marek24667",
+      "slug": "marek24667",
+      "avatar": "user/avatar/5fa6a9e96ff36604a3651657.4af410e4.webp",
+      "reputation": 184,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:08:59Z"
+    }
+  },
+  {
+    "id": "62a1249bf2b888068399b5a7",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 24,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2022-06-08T22:37:15Z",
+    "updatedAt": "2026-04-30T18:48:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e533bc326753902161fa685",
+      "ingameName": "RenoxDashin",
+      "slug": "renoxdashin",
+      "avatar": "user/avatar/5e533bc326753902161fa685.ddfc3596.webp",
+      "reputation": 668,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:54:58Z"
+    }
+  },
+  {
+    "id": "62f50589138cc606c85d707a",
+    "type": "sell",
+    "platinum": 40,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2022-08-11T13:35:05Z",
+    "updatedAt": "2026-06-30T12:27:26Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57b2f7660f31395363282b6f",
+      "ingameName": "--Q--DucatMaster",
+      "slug": "q-ducatmaster",
+      "avatar": "user/avatar/57b2f7660f31395363282b6f.fb966a66.webp",
+      "reputation": 7365,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T12:29:06Z"
+    }
+  },
+  {
+    "id": "6304281cecf1ee013561bc1f",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 36,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2022-08-23T01:06:36Z",
+    "updatedAt": "2026-05-17T23:24:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57df9b750f313917a2619442",
+      "ingameName": "--Q--Hakudoshi23",
+      "slug": "q-hakudoshi23",
+      "avatar": "user/avatar/57df9b750f313917a2619442.png?b19a293982af465db0526d0f50b8e9a0",
+      "reputation": 1268,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T06:06:59Z"
+    }
+  },
+  {
+    "id": "63b173404176ae0c002d8c0c",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 9,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-01-01T11:49:20Z",
+    "updatedAt": "2026-06-14T22:43:25Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "61ef223e0ac480022d04a6ea",
+      "ingameName": "RanAway2",
+      "slug": "ranaway2",
+      "avatar": "user/avatar/61ef223e0ac480022d04a6ea.png?0fa5135b6ff19441c6fdd3c51b6ac243",
+      "reputation": 65,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T07:15:45Z"
+    }
+  },
+  {
+    "id": "63b9e030cae33d0c65ca0dc9",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-01-07T21:12:16Z",
+    "updatedAt": "2024-02-18T18:41:09Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "55e44e76e77989413827aee4",
+      "ingameName": "Ornithos",
+      "slug": "ornithos",
+      "reputation": 15,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:53:52Z"
+    }
+  },
+  {
+    "id": "63d663488de5140523e3b338",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-01-29T12:15:04Z",
+    "updatedAt": "2026-05-17T23:24:42Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57df9b750f313917a2619442",
+      "ingameName": "--Q--Hakudoshi23",
+      "slug": "q-hakudoshi23",
+      "avatar": "user/avatar/57df9b750f313917a2619442.png?b19a293982af465db0526d0f50b8e9a0",
+      "reputation": 1268,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T06:06:59Z"
+    }
+  },
+  {
+    "id": "64211e087d179f089827b30b",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 9,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-03-27T04:39:36Z",
+    "updatedAt": "2025-01-22T20:43:47Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5f73430b05bd97015c365a3a",
+      "ingameName": "DoomLG",
+      "slug": "doomlg",
+      "avatar": "user/avatar/5f73430b05bd97015c365a3a.png?0beb46bfc2ff6bbb2742feeb2d8368fc",
+      "reputation": 93,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T03:43:11Z"
+    }
+  },
+  {
+    "id": "643edb3737fc1608af528522",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-04-18T18:02:31Z",
+    "updatedAt": "2026-06-03T14:21:25Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e2703feab765604b95f800a",
+      "ingameName": "txwoodzombie",
+      "slug": "txwoodzombie",
+      "avatar": "user/avatar/5e2703feab765604b95f800a.png?5e55d04021e902a8105e98708da64d40",
+      "reputation": 168,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:06:09Z"
+    }
+  },
+  {
+    "id": "647d2ccd6c031417ba6f21e3",
+    "type": "sell",
+    "platinum": 14,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-06-05T00:31:09Z",
+    "updatedAt": "2026-01-20T21:19:54Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60cbcd634acef8016328d33b",
+      "ingameName": "Wallcus",
+      "slug": "wallcus",
+      "avatar": "user/avatar/60cbcd634acef8016328d33b.png?d5da45d1d4d981c71ce6f35b28d82467",
+      "reputation": 132,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:51:30Z"
+    }
+  },
+  {
+    "id": "6486c099ef04951d08feb80a",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-06-12T06:52:09Z",
+    "updatedAt": "2026-06-29T23:41:33Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "59ddb3b9d3ffb64351405c83",
+      "ingameName": "AxiumX",
+      "slug": "axiumx",
+      "avatar": "user/avatar/59ddb3b9d3ffb64351405c83.png?25aaf4197f72369000ccc2da8c01a350",
+      "reputation": 9,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:13:15Z"
+    }
+  },
+  {
+    "id": "64cd65cb86cb5e019a7eb03e",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-08-04T20:55:39Z",
+    "updatedAt": "2026-06-15T12:44:27Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64c660b1efb05e064a7d26b1",
+      "ingameName": "tiziaz",
+      "slug": "tiziaz",
+      "reputation": 2,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:50:57Z"
+    }
+  },
+  {
+    "id": "64efff410a10ed062448bd87",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 38,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-08-31T02:47:29Z",
+    "updatedAt": "2023-08-31T02:47:29Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d45381e5c9cca045106d56f",
+      "ingameName": "Kamrimal",
+      "slug": "kamrimal",
+      "avatar": "user/avatar/5d45381e5c9cca045106d56f.png?62eae7fd940da40f2cca256ab839ebe3",
+      "reputation": 1792,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:13:10Z"
+    }
+  },
+  {
+    "id": "652fb0a35a1dcb0c13943304",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-10-18T10:17:07Z",
+    "updatedAt": "2023-10-18T10:17:10Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6002e6664dd61401d5fdcb21",
+      "ingameName": "-AoD-bazylkumpel",
+      "slug": "aod-bazylkumpel",
+      "avatar": "user/avatar/6002e6664dd61401d5fdcb21.png?8b7027373f60aaefda14fea754403255",
+      "reputation": 1361,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:00:23Z"
+    }
+  },
+  {
+    "id": "654d403e5d2df007da5bc523",
+    "type": "sell",
+    "platinum": 29,
+    "quantity": 28,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-11-09T20:25:34Z",
+    "updatedAt": "2025-10-08T09:54:57Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57b44c07d3ffb652fcde3199",
+      "ingameName": "Alkatrosto",
+      "slug": "alkatrosto",
+      "reputation": 190,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:50:07Z"
+    }
+  },
+  {
+    "id": "6560a1740549dc14d144ddce",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 33,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-11-24T13:13:24Z",
+    "updatedAt": "2026-06-06T12:59:09Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5928aadf0f313969c12454ea",
+      "ingameName": "Darthboy",
+      "slug": "darthboy",
+      "reputation": 18,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T22:48:15Z"
+    }
+  },
+  {
+    "id": "6589853bfaacc429a6ca662e",
+    "type": "sell",
+    "platinum": 60,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-12-25T13:35:55Z",
+    "updatedAt": "2023-12-25T13:35:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "62c0aeec4670ac0b76a3dc7a",
+      "ingameName": "UnbreakableZ",
+      "slug": "unbreakablez",
+      "reputation": 301,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:31:03Z"
+    }
+  },
+  {
+    "id": "658c1d902d2bbe314bae202a",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 10,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2023-12-27T12:50:24Z",
+    "updatedAt": "2024-02-05T19:11:08Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5920a0a10f31395d515b88b3",
+      "ingameName": "AfricanMomboJombo",
+      "slug": "africanmombojombo",
+      "avatar": "user/avatar/5920a0a10f31395d515b88b3.png?3341bef9de4971d2347086e1b5b3866b",
+      "reputation": 112,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T15:40:58Z"
+    }
+  },
+  {
+    "id": "658f6ada85339a32232b9963",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2023-12-30T00:56:58Z",
+    "updatedAt": "2023-12-30T00:56:58Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "593a867cd3ffb60b2050a6b3",
+      "ingameName": "Seraph_Tenshino",
+      "slug": "seraph_tenshino",
+      "avatar": "user/avatar/593a867cd3ffb60b2050a6b3.e4aecc6d.webp",
+      "reputation": 42,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T09:08:53Z"
+    }
+  },
+  {
+    "id": "65d276c95702720041f28629",
+    "type": "sell",
+    "platinum": 50,
+    "quantity": 9,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-02-18T21:29:45Z",
+    "updatedAt": "2024-02-18T21:29:45Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "654d99d52d2bbe08effab4e4",
+      "ingameName": "ilyRogue",
+      "slug": "ilyrogue",
+      "avatar": "user/avatar/654d99d52d2bbe08effab4e4.png?96a6c8c4032a049ee955c6bf2b547424",
+      "reputation": 593,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:46:50Z"
+    }
+  },
+  {
+    "id": "65ec075dd995a502d17fba09",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-03-09T06:53:17Z",
+    "updatedAt": "2026-06-25T22:32:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d5e11ab934a4d0169867e2e",
+      "ingameName": "Ares",
+      "slug": "ares",
+      "avatar": "user/avatar/5d5e11ab934a4d0169867e2e.png?2813a1a8aa6e857c3033ceaa505da8eb",
+      "reputation": 4442,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:59:58Z"
+    }
+  },
+  {
+    "id": "65ec0760570272018dd345e7",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-03-09T06:53:20Z",
+    "updatedAt": "2026-06-25T22:32:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d5e11ab934a4d0169867e2e",
+      "ingameName": "Ares",
+      "slug": "ares",
+      "avatar": "user/avatar/5d5e11ab934a4d0169867e2e.png?2813a1a8aa6e857c3033ceaa505da8eb",
+      "reputation": 4442,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:59:58Z"
+    }
+  },
+  {
+    "id": "666567b994543215c1d47831",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 32,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-06-09T08:28:41Z",
+    "updatedAt": "2024-06-09T08:28:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5f0cd4d1bb75120177ff7eb5",
+      "ingameName": "FSK41",
+      "slug": "fsk41",
+      "avatar": "user/avatar/5f0cd4d1bb75120177ff7eb5.png?5c2813a1f5ad9fb7b876679120fdbb72",
+      "reputation": 75,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:15:20Z"
+    }
+  },
+  {
+    "id": "667a5c036b17410127ba7075",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-06-25T05:56:19Z",
+    "updatedAt": "2025-08-02T22:44:34Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5bdccc7c27f36701f357c6b6",
+      "ingameName": "Visionz7",
+      "slug": "visionz7",
+      "reputation": 48,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:44:16Z"
+    }
+  },
+  {
+    "id": "66b9dc22adc83a27c2a78efa",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 14,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-08-12T09:55:46Z",
+    "updatedAt": "2024-08-12T09:55:46Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66942ebe0f86de074126f03f",
+      "ingameName": "xanone",
+      "slug": "xanone",
+      "reputation": 33,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:40:38Z"
+    }
+  },
+  {
+    "id": "66e6edac5ca3222d01832580",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-09-15T14:22:36Z",
+    "updatedAt": "2025-07-29T18:29:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65953a550856e800af17357e",
+      "ingameName": "Adagio5",
+      "slug": "adagio5",
+      "reputation": 19,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T04:49:55Z"
+    }
+  },
+  {
+    "id": "66e95e36adc83a31644cc54f",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-09-17T10:47:18Z",
+    "updatedAt": "2024-09-17T10:47:18Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60808698e168df00f1aef6d2",
+      "ingameName": "-AoD-Eronix",
+      "slug": "aod-eronix",
+      "avatar": "user/avatar/60808698e168df00f1aef6d2.png?8cc95a93468ee85258c1ba5c5dad1ea8",
+      "reputation": 143,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:34:43Z"
+    }
+  },
+  {
+    "id": "66ecd01bb12b7433f5c9d007",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 10,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-09-20T01:30:03Z",
+    "updatedAt": "2026-06-19T23:31:42Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6680ea85da67ec05ffbf8b26",
+      "ingameName": "CommaSama",
+      "slug": "commasama",
+      "avatar": "user/avatar/6680ea85da67ec05ffbf8b26.png?cb04ba989bece7ee94360192fbd6f966",
+      "reputation": 52,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "ru",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:22:53Z"
+    }
+  },
+  {
+    "id": "66fc517ac405f6357b48b8e3",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-10-01T19:46:02Z",
+    "updatedAt": "2025-07-06T01:18:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65fbdec2945432019f3bc117",
+      "ingameName": "Wall_Worth",
+      "slug": "wall-worth",
+      "reputation": 4,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:12:52Z"
+    }
+  },
+  {
+    "id": "67191090ff398301995a6b54",
+    "type": "sell",
+    "platinum": 14,
+    "quantity": 30,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-10-23T15:04:48Z",
+    "updatedAt": "2025-10-16T14:12:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6336018640019f04da9b41b9",
+      "ingameName": "Isansi_",
+      "slug": "isansi",
+      "avatar": "user/avatar/6336018640019f04da9b41b9.e56e2390.webp",
+      "reputation": 213,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:22:01Z"
+    }
+  },
+  {
+    "id": "674883811f1fe50007c2d4b4",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-11-28T14:51:45Z",
+    "updatedAt": "2024-11-28T14:51:45Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "61c1d16f4f6ec10cbba93347",
+      "ingameName": "Balancoire",
+      "slug": "balancoire",
+      "reputation": 216,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:17:33Z"
+    }
+  },
+  {
+    "id": "674903c1a5039f00083e1ac5",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-11-28T23:58:57Z",
+    "updatedAt": "2024-11-28T23:58:57Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5ca3424124e70a0db132ec4c",
+      "ingameName": "shorfng",
+      "slug": "shorfng",
+      "avatar": "user/avatar/5ca3424124e70a0db132ec4c.png?74c0124c53e0801c700fcdc9c5f8d358",
+      "reputation": 640,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:20:44Z"
+    }
+  },
+  {
+    "id": "675872aed336300008c2d835",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2024-12-10T16:56:14Z",
+    "updatedAt": "2026-05-10T08:27:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6430ab41abd2ae03a2f80a70",
+      "ingameName": "NEFFEXyyds",
+      "slug": "neffexyyds",
+      "avatar": "user/avatar/6430ab41abd2ae03a2f80a70.png?10513907b7d571679b6bc2e53840b2ce",
+      "reputation": 3097,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:11:11Z"
+    }
+  },
+  {
+    "id": "675872b6d07b730007356387",
+    "type": "sell",
+    "platinum": 45,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-12-10T16:56:22Z",
+    "updatedAt": "2026-05-10T08:27:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6430ab41abd2ae03a2f80a70",
+      "ingameName": "NEFFEXyyds",
+      "slug": "neffexyyds",
+      "avatar": "user/avatar/6430ab41abd2ae03a2f80a70.png?10513907b7d571679b6bc2e53840b2ce",
+      "reputation": 3097,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:11:11Z"
+    }
+  },
+  {
+    "id": "67719e4378f7dd000718ac97",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2024-12-29T19:08:51Z",
+    "updatedAt": "2024-12-29T19:08:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6585ab345d2df02b80f462e8",
+      "ingameName": "IZAN2MI",
+      "slug": "izan2mi",
+      "avatar": "user/avatar/6585ab345d2df02b80f462e8.png?f7404cf25bf0c2cac7f8b404e7f7901e",
+      "reputation": 349,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T07:34:18Z"
+    }
+  },
+  {
+    "id": "67af73a0093d4c0877141877",
+    "type": "sell",
+    "platinum": 50,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-02-14T16:47:28Z",
+    "updatedAt": "2025-07-24T15:31:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e03a717d9330b016b40fe03",
+      "ingameName": "Forever_Prime",
+      "slug": "forever-prime",
+      "avatar": "user/avatar/5e03a717d9330b016b40fe03.png?de95fb7f8486cf1771dea1b9e1cd6fba",
+      "reputation": 5700,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:10:10Z"
+    }
+  },
+  {
+    "id": "67b3ad3240ed3200434eae86",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-02-17T21:42:10Z",
+    "updatedAt": "2025-11-08T11:39:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65b932d6384de30170038312",
+      "ingameName": "Vyrkael",
+      "slug": "vyrkael",
+      "avatar": "user/avatar/65b932d6384de30170038312.png?1501cba62ab5a890fc868a0348381c9c",
+      "reputation": 64,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:29:12Z"
+    }
+  },
+  {
+    "id": "67cd58c6d4600b007fe54eb7",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 16,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-03-09T09:00:54Z",
+    "updatedAt": "2026-06-30T22:25:21Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "62f27c80330ca4061794c0c3",
+      "ingameName": "RootsRedemption",
+      "slug": "rootsredemption",
+      "reputation": 53,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:14:36Z"
+    }
+  },
+  {
+    "id": "67f136b1ff901600252e8ef6",
+    "type": "sell",
+    "platinum": 12,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-04-05T13:57:05Z",
+    "updatedAt": "2026-05-26T09:51:05Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "670405ceb64bc7000bbf1e9c",
+      "ingameName": "Meuru",
+      "slug": "meuru",
+      "reputation": 39,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T11:27:18Z"
+    }
+  },
+  {
+    "id": "67f97df2fde1ef003d5aa18a",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-04-11T20:39:14Z",
+    "updatedAt": "2025-06-24T19:25:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67f9799dfde1ef0043b40cf5",
+      "ingameName": "vzOrochi",
+      "slug": "vzorochi",
+      "reputation": 32,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:26:13Z"
+    }
+  },
+  {
+    "id": "67fd31efff9016000b93b8e4",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 9,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-04-14T16:03:59Z",
+    "updatedAt": "2026-06-25T11:54:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "62bbd97df2b8880a9d4594f6",
+      "ingameName": "GnoGer",
+      "slug": "gnoger",
+      "reputation": 72,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:29:45Z"
+    }
+  },
+  {
+    "id": "68028d33f5ba0a000798f135",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-04-18T17:34:43Z",
+    "updatedAt": "2025-10-26T14:49:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67b7c9e840a21d006d80c081",
+      "ingameName": "CreeperPlaysYT",
+      "slug": "creeperplaysyt",
+      "avatar": "user/avatar/67b7c9e840a21d006d80c081.png?0eaa3691f014064d2aea8547e09795d1",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T05:44:35Z"
+    }
+  },
+  {
+    "id": "68053f06353ea1000874f66a",
+    "type": "sell",
+    "platinum": 38,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-04-20T18:37:58Z",
+    "updatedAt": "2025-04-20T18:37:58Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63523e1940019f0d8c12b2e2",
+      "ingameName": "DDDdecade.-.",
+      "slug": "ddddecade",
+      "avatar": "user/avatar/63523e1940019f0d8c12b2e2.aa1552de.webp",
+      "reputation": 1916,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:35:18Z"
+    }
+  },
+  {
+    "id": "680f73388e487d00b5a8e2a6",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 10,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-04-28T12:23:20Z",
+    "updatedAt": "2026-05-19T08:43:43Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c413e7183d16201cd5de767",
+      "ingameName": "GaldrixCenturion",
+      "slug": "galdrixcenturion",
+      "reputation": 86,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:38:49Z"
+    }
+  },
+  {
+    "id": "6821285dfde1ef039dfd6893",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-05-11T22:44:45Z",
+    "updatedAt": "2025-12-06T13:51:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6815220b0067ad017acdb340",
+      "ingameName": "-Zoran",
+      "slug": "zoran-9543",
+      "avatar": "user/avatar/6815220b0067ad017acdb340.b2bc93c8.webp",
+      "reputation": 120,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:24:40Z"
+    }
+  },
+  {
+    "id": "6831c2c87762c70008c6c34e",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-05-24T12:59:52Z",
+    "updatedAt": "2025-05-24T12:59:52Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66f3e3cbc405f633d12f63f1",
+      "ingameName": "Divender",
+      "slug": "divender",
+      "avatar": "user/avatar/66f3e3cbc405f633d12f63f1.png?0d3a059a7121600eaf6414fb05631712",
+      "reputation": 9,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T13:40:47Z"
+    }
+  },
+  {
+    "id": "68342e57b43347001edb40ba",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-05-26T09:03:19Z",
+    "updatedAt": "2025-12-03T08:33:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c521031e12a2d03a0b00d49",
+      "ingameName": "leigaazi",
+      "slug": "leigaazi",
+      "avatar": "user/avatar/5c521031e12a2d03a0b00d49.png?96de424d5a6d8ec530147a59895e84c8",
+      "reputation": 30,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:57:32Z"
+    }
+  },
+  {
+    "id": "6843b4cf3ab365024734c90f",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-06-07T03:41:03Z",
+    "updatedAt": "2026-04-02T06:30:48Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67f880b4f5ba0a00068c28dc",
+      "ingameName": "benayed",
+      "slug": "benayed",
+      "reputation": 42,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:21:44Z"
+    }
+  },
+  {
+    "id": "6848333059d3f10009b84ae9",
+    "type": "sell",
+    "platinum": 39,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-06-10T13:29:20Z",
+    "updatedAt": "2025-07-10T13:56:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b92245f77108e01d21cb19d",
+      "ingameName": "-RD-Salind",
+      "slug": "rd-salind",
+      "avatar": "user/avatar/5b92245f77108e01d21cb19d.png?faaa3221f5fd6b53eeb5c58a99471ea0",
+      "reputation": 53,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T10:38:29Z"
+    }
+  },
+  {
+    "id": "68795afc44f59400736ef6a1",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-07-17T20:20:12Z",
+    "updatedAt": "2026-06-23T02:20:00Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b50b06c59d8850274bb3d6c",
+      "ingameName": "KuvaQueen",
+      "slug": "kuvaqueen-1720",
+      "avatar": "user/avatar/5b50b06c59d8850274bb3d6c.png?e999da25f2ac2bb7909630d1bff93461",
+      "reputation": 140,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:44:00Z"
+    }
+  },
+  {
+    "id": "687bd675388ac80006530110",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-07-19T17:31:33Z",
+    "updatedAt": "2025-07-19T17:31:33Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63ffdad70c6369041010f7bc",
+      "ingameName": "UntamedlKiwi",
+      "slug": "untamedlkiwi",
+      "avatar": "user/avatar/63ffdad70c6369041010f7bc.png?8aa20b48f9a73c0cbaf2b1bb0ce7d4aa",
+      "reputation": 53,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T00:18:26Z"
+    }
+  },
+  {
+    "id": "687da3e799a6b60055e50cb3",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-07-21T02:20:23Z",
+    "updatedAt": "2026-06-13T17:30:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67b6a5f4d0264b0008bc48c9",
+      "ingameName": "Whiptastic",
+      "slug": "whiptastic",
+      "avatar": "user/avatar/67b6a5f4d0264b0008bc48c9.png?2c1801c71786dd1a46afa8dc41584f09",
+      "reputation": 34,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:54:35Z"
+    }
+  },
+  {
+    "id": "6884d5b82a87dd001f17043f",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-07-26T13:18:48Z",
+    "updatedAt": "2025-07-26T13:18:48Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a6e9e7849ef0002cd8affd3",
+      "ingameName": "SirBengus",
+      "slug": "sirbengus",
+      "avatar": "user/avatar/5a6e9e7849ef0002cd8affd3.png?52ff026c8407cb4613ee00c514efce61",
+      "reputation": 145,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T02:09:34Z"
+    }
+  },
+  {
+    "id": "688ae0161a935b00088faa40",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-07-31T03:16:38Z",
+    "updatedAt": "2025-07-31T03:16:38Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5fb807d46363bc0017eaaf67",
+      "ingameName": "xzaiii",
+      "slug": "xzaiii",
+      "avatar": "user/avatar/5fb807d46363bc0017eaaf67.png?d58aed581996cb8ed276859920812aaa",
+      "reputation": 93,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:23:55Z"
+    }
+  },
+  {
+    "id": "688f75bd1a935b0025f09304",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 44,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-08-03T14:44:13Z",
+    "updatedAt": "2026-01-10T19:25:17Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5924a4490f313963f1e933b3",
+      "ingameName": "W4RF4M3",
+      "slug": "w4rf4m3",
+      "avatar": "user/avatar/5924a4490f313963f1e933b3.png?f96153f33f2b66a12d7718b71d0a2a47",
+      "reputation": 1022,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:02:45Z"
+    }
+  },
+  {
+    "id": "6899283a99a6b6004f89151b",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-08-10T23:16:10Z",
+    "updatedAt": "2026-01-12T06:25:22Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b7fb3f6debecf04c75b6efa",
+      "ingameName": "elselena",
+      "slug": "elselena",
+      "reputation": 67,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T03:40:34Z"
+    }
+  },
+  {
+    "id": "689cef1044f594000703fde1",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-08-13T20:01:20Z",
+    "updatedAt": "2025-08-13T20:01:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66887e4b5ca3221b0de10b3f",
+      "ingameName": "aerkaa2",
+      "slug": "aerkaa2",
+      "avatar": "user/avatar/66887e4b5ca3221b0de10b3f.2a7f6ace.webp",
+      "reputation": 24,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T06:30:46Z"
+    }
+  },
+  {
+    "id": "689ec30844f594005a0cbae5",
+    "type": "sell",
+    "platinum": 14,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-08-15T05:18:00Z",
+    "updatedAt": "2026-06-15T10:14:05Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67f9f8b0ff9016000703b501",
+      "ingameName": "SafetySalt",
+      "slug": "safetysalt",
+      "reputation": 7,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T08:25:04Z"
+    }
+  },
+  {
+    "id": "68a11b4f99a6b60007d2908a",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-08-16T23:59:11Z",
+    "updatedAt": "2026-05-01T05:00:52Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6616c98b8fa2c1058e34c1d3",
+      "ingameName": "-AoD-justTrek",
+      "slug": "aod-justtrek",
+      "avatar": "user/avatar/6616c98b8fa2c1058e34c1d3.cf09ea10.webp",
+      "reputation": 278,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:46:07Z"
+    }
+  },
+  {
+    "id": "68ab048944f594010fbad545",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-08-24T12:24:41Z",
+    "updatedAt": "2026-03-28T21:28:50Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63a0eb5fb1faca06260e26a8",
+      "ingameName": "Ditarius",
+      "slug": "ditarius",
+      "reputation": 37,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:12:45Z"
+    }
+  },
+  {
+    "id": "68b059e02a87dd00433296c6",
+    "type": "sell",
+    "platinum": 19,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-08-28T13:30:08Z",
+    "updatedAt": "2025-08-28T13:30:08Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "683b70396168d300bf5604db",
+      "ingameName": "Fujinshi",
+      "slug": "fujinshi",
+      "avatar": "user/avatar/683b70396168d300bf5604db.png?d1a65c143a583b6f3191f8b3472261d0",
+      "reputation": 30,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:08:53Z"
+    }
+  },
+  {
+    "id": "68bb12e0c2414c00319465a0",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 21,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-09-05T16:42:08Z",
+    "updatedAt": "2026-06-30T21:13:17Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68a47c93ed79390008fcbd4a",
+      "ingameName": "WilgotnaEsmeralda",
+      "slug": "wilgotnaesmeralda",
+      "reputation": 216,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:18:19Z"
+    }
+  },
+  {
+    "id": "68d7d3e9c207e600c7df5385",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-09-27T12:09:13Z",
+    "updatedAt": "2025-12-23T15:05:28Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68c0d972388ac80067abb94f",
+      "ingameName": "JMMKAZ",
+      "slug": "jmmkaz",
+      "reputation": 115,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T04:44:06Z"
+    }
+  },
+  {
+    "id": "68d8d50d388ac80140846050",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 28,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-09-28T06:26:21Z",
+    "updatedAt": "2026-02-15T17:10:12Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65d8a937570272000a0160bb",
+      "ingameName": "niksus",
+      "slug": "niksus",
+      "avatar": "user/avatar/65d8a937570272000a0160bb.png?a508f6124403e23e655a996614299aca",
+      "reputation": 79,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:44:20Z"
+    }
+  },
+  {
+    "id": "68de3a9b29120f9f6e1fd3bd",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-02T08:40:59Z",
+    "updatedAt": "2026-06-15T18:08:17Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a071bcbc6113601aba33424",
+      "ingameName": "TnT_easy",
+      "slug": "tnt-easy",
+      "avatar": "user/avatar/5a071bcbc6113601aba33424.png?d5bba22baf10cc4b2e9b5c1eb4a60b1f",
+      "reputation": 38,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:11:43Z"
+    }
+  },
+  {
+    "id": "68e03af1bcd575287a2d99ac",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-03T21:06:57Z",
+    "updatedAt": "2026-03-28T19:37:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68cb3e252a87dd00083b2bc5",
+      "ingameName": "Levi_Robin",
+      "slug": "levi_robin",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T03:23:30Z"
+    }
+  },
+  {
+    "id": "68e083f809a04ffe1c4a2045",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-04T02:18:32Z",
+    "updatedAt": "2025-10-17T10:28:36Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66b2c52c5ca32222a57e21a6",
+      "ingameName": "Annadi_",
+      "slug": "annadi",
+      "reputation": 64,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:33:04Z"
+    }
+  },
+  {
+    "id": "68e92ccd52ccf0e949c7438f",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-10T15:57:01Z",
+    "updatedAt": "2025-10-10T15:57:01Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67b3a886ea1fc6000a460b5f",
+      "ingameName": "Moe595",
+      "slug": "moe595",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:44:01Z"
+    }
+  },
+  {
+    "id": "68ec3a17c4dcef00723e428e",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-10-12T23:30:31Z",
+    "updatedAt": "2025-10-12T23:30:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5f7cd48518cc1d0272cd42c1",
+      "ingameName": "KingstonC",
+      "slug": "kingstonc",
+      "reputation": 7,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:52:47Z"
+    }
+  },
+  {
+    "id": "68f3d74eb9bf3dd58f9f95f4",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-10-18T18:07:10Z",
+    "updatedAt": "2025-10-18T18:07:10Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "594a615c0f3139264d00192c",
+      "ingameName": "Rhegaly",
+      "slug": "rhegaly",
+      "reputation": 59,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:03:13Z"
+    }
+  },
+  {
+    "id": "68f4f9c0ce4a4c0a007fb00d",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 31,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-19T14:46:24Z",
+    "updatedAt": "2025-10-19T14:46:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5ac34543e47c5c0699a37762",
+      "ingameName": "WeAllLiftTogether.mp3",
+      "slug": "wealllifttogether-mp3",
+      "avatar": "user/avatar/5ac34543e47c5c0699a37762.png?8530e9f136d693fbff28d61e2f722fee",
+      "reputation": 381,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:39:44Z"
+    }
+  },
+  {
+    "id": "68f632ecce4a4c0a0080451c",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-10-20T13:02:36Z",
+    "updatedAt": "2026-03-18T14:09:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a3eb141c2c9e91c71f653cb",
+      "ingameName": "Kenobi000001",
+      "slug": "kenobi000001",
+      "reputation": 56,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T11:57:47Z"
+    }
+  },
+  {
+    "id": "690625155fffe103abc7ce3a",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-11-01T15:19:49Z",
+    "updatedAt": "2026-04-12T10:24:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5be2f5933bcd0a02b8496d54",
+      "ingameName": "Elera",
+      "slug": "elera",
+      "avatar": "user/avatar/5be2f5933bcd0a02b8496d54.png?f6c2f1f639dd005edc543ed445d683c9",
+      "reputation": 118,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:17:48Z"
+    }
+  },
+  {
+    "id": "690690985fffe103abc80d23",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-11-01T22:58:32Z",
+    "updatedAt": "2026-06-20T14:45:33Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "61882908493dc903ece05521",
+      "ingameName": "Aguileych",
+      "slug": "aguileych",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "es",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T14:26:50Z"
+    }
+  },
+  {
+    "id": "691c4fe045b966147e7030c7",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-11-18T10:52:16Z",
+    "updatedAt": "2026-06-25T08:55:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "59ed12640f3139042026ca2a",
+      "ingameName": "RobinUnreliant",
+      "slug": "robinunreliant",
+      "reputation": 93,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:02:02Z"
+    }
+  },
+  {
+    "id": "6921153f28baf765dd4a8616",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 15,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-11-22T01:43:27Z",
+    "updatedAt": "2025-11-22T01:43:27Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a24de96c2c9e90252147cf6",
+      "ingameName": "--DAY--",
+      "slug": "day-0551",
+      "avatar": "user/avatar/5a24de96c2c9e90252147cf6.d0023fe1.webp",
+      "reputation": 266,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:58:11Z"
+    }
+  },
+  {
+    "id": "6921f89645b966147e74c099",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-11-22T17:53:26Z",
+    "updatedAt": "2025-11-22T17:53:26Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5630fc27b66f837aa1c1453e",
+      "ingameName": "D.Lann",
+      "slug": "d-lann",
+      "avatar": "user/avatar/5630fc27b66f837aa1c1453e.a0395593.webp",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-28T23:30:41Z"
+    }
+  },
+  {
+    "id": "69266e8f45b966147e789041",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-11-26T03:05:51Z",
+    "updatedAt": "2026-06-20T02:37:54Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6751a623ae1dd0000a3db1fd",
+      "ingameName": "Douyu2218518",
+      "slug": "douyu2218518",
+      "reputation": 6,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:47:01Z"
+    }
+  },
+  {
+    "id": "6934b5c4affbfaaa4e268b80",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-12-06T23:01:24Z",
+    "updatedAt": "2025-12-06T23:01:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68a89e6c2a87dd0055796eed",
+      "ingameName": "MaxLc_",
+      "slug": "maxlc",
+      "avatar": "user/avatar/68a89e6c2a87dd0055796eed.16e10faf.webp",
+      "reputation": 52,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T09:47:44Z"
+    }
+  },
+  {
+    "id": "6948a6746370c5725c9155dc",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 11,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-12-22T02:01:24Z",
+    "updatedAt": "2025-12-22T02:01:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67627a2593831e0006a64af2",
+      "ingameName": "-Snafu-",
+      "slug": "snafu",
+      "reputation": 54,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T01:53:41Z"
+    }
+  },
+  {
+    "id": "69499ebf6370c5725c9308ce",
+    "type": "sell",
+    "platinum": 35,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2025-12-22T19:40:47Z",
+    "updatedAt": "2026-03-19T02:27:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "694984cd133a4e000737bd6a",
+      "ingameName": "KingBacca85",
+      "slug": "kingbacca85",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:03:17Z"
+    }
+  },
+  {
+    "id": "6950c8afe2f5699c216e29b2",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-12-28T06:05:35Z",
+    "updatedAt": "2026-05-18T22:27:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "610a42723a737801bb4b8e6b",
+      "ingameName": "Wolrou",
+      "slug": "wolrou",
+      "avatar": "user/avatar/610a42723a737801bb4b8e6b.png?07d6c9631b9ab529880731684e0453b6",
+      "reputation": 35,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "es",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:58:15Z"
+    }
+  },
+  {
+    "id": "6953d3826370c5725ca5908b",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-12-30T13:28:34Z",
+    "updatedAt": "2026-06-30T16:23:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5cfb7624c283c7024af9b063",
+      "ingameName": "Aznaria",
+      "slug": "aznaria",
+      "reputation": 4,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:13:00Z"
+    }
+  },
+  {
+    "id": "6953ecf0e2f5699c21741705",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 14,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2025-12-30T15:17:04Z",
+    "updatedAt": "2026-04-04T16:06:45Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "684dbb571546b8004e947712",
+      "ingameName": "LucielFrost",
+      "slug": "lucielfrost",
+      "reputation": 41,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T05:09:44Z"
+    }
+  },
+  {
+    "id": "6959a1a2e2f5699c217eb610",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-01-03T23:09:22Z",
+    "updatedAt": "2026-03-24T03:05:57Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67b9ad34ba046501209f289e",
+      "ingameName": "Armaros_Az",
+      "slug": "armaros_az",
+      "reputation": 9,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:26:15Z"
+    }
+  },
+  {
+    "id": "6960e4fde2f5699c218b568b",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-01-09T11:22:37Z",
+    "updatedAt": "2026-03-29T10:21:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d46931c1796a3048091edc7",
+      "ingameName": "Muhat",
+      "slug": "muhat",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:53:16Z"
+    }
+  },
+  {
+    "id": "69636303e2f5699c2190a79f",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-01-11T08:44:51Z",
+    "updatedAt": "2026-06-02T17:07:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66e71927218f7f0007028b9d",
+      "ingameName": "DiviK",
+      "slug": "divik",
+      "reputation": 52,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:40:25Z"
+    }
+  },
+  {
+    "id": "696427b8e2f5699c219248bf",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-01-11T22:44:08Z",
+    "updatedAt": "2026-02-06T02:03:56Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57491be30f31393e4807dddb",
+      "ingameName": "TravellerTerrace",
+      "slug": "travellerterrace",
+      "reputation": 52,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:02:21Z"
+    }
+  },
+  {
+    "id": "69665010e2f5699c2195f15d",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-01-13T14:00:48Z",
+    "updatedAt": "2026-05-29T21:16:04Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6963f737635d45000a636e04",
+      "ingameName": "magicviper33",
+      "slug": "magicviper33",
+      "avatar": "user/avatar/6963f737635d45000a636e04.01dbacaa.webp",
+      "reputation": 6,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:06:36Z"
+    }
+  },
+  {
+    "id": "696a7a4da7a2008a737c1d12",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 10,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-01-16T17:50:05Z",
+    "updatedAt": "2026-06-30T20:19:15Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "682f696492205a000ae98a0c",
+      "ingameName": "Naixon-Samir",
+      "slug": "naixon-samir",
+      "avatar": "user/avatar/682f696492205a000ae98a0c.09a181dc.webp",
+      "reputation": 662,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:34:08Z"
+    }
+  },
+  {
+    "id": "697f7e34a7a2008a739e713c",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-01T16:24:20Z",
+    "updatedAt": "2026-02-01T16:24:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63788ca314c3e704ec67fa3c",
+      "ingameName": "GunterBunter",
+      "slug": "gunterbunter",
+      "avatar": "user/avatar/63788ca314c3e704ec67fa3c.png?fd7e67e50f99faa1f948c95adf2f68de",
+      "reputation": 296,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T10:35:52Z"
+    }
+  },
+  {
+    "id": "6989c7296a51e1b3b0f30f36",
+    "type": "sell",
+    "platinum": 12,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-09T11:38:17Z",
+    "updatedAt": "2026-06-29T19:06:44Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c0f3989b072cd006ddf5806",
+      "ingameName": "Neptious",
+      "slug": "neptious",
+      "avatar": "user/avatar/5c0f3989b072cd006ddf5806.png?723e666fbd8c16f208168125710cdf18",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:31:37Z"
+    }
+  },
+  {
+    "id": "698ac925a7a2008a73adfe7b",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 21,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-02-10T05:59:01Z",
+    "updatedAt": "2026-02-10T05:59:01Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64d8300d5e53940015e1d76b",
+      "ingameName": "Hunter.",
+      "slug": "hunter-2895",
+      "avatar": "user/avatar/64d8300d5e53940015e1d76b.e460da57.webp",
+      "reputation": 175,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T01:20:25Z"
+    }
+  },
+  {
+    "id": "698ad20ba7a2008a73ae0834",
+    "type": "sell",
+    "platinum": 8,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-10T06:36:59Z",
+    "updatedAt": "2026-03-06T08:50:32Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6962daccba376802cbbc1b33",
+      "ingameName": "CielFoehn",
+      "slug": "cielfoehn",
+      "reputation": 99,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:26:02Z"
+    }
+  },
+  {
+    "id": "6991b2cea7a2008a73b7baca",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-02-15T11:49:34Z",
+    "updatedAt": "2026-06-12T11:36:16Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "602a303c6e8f4202b3a5d6d7",
+      "ingameName": "Chick",
+      "slug": "chick",
+      "avatar": "user/avatar/602a303c6e8f4202b3a5d6d7.3c927332.webp",
+      "reputation": 26,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T14:05:58Z"
+    }
+  },
+  {
+    "id": "6994634fa7a2008a73bb185f",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-17T12:47:11Z",
+    "updatedAt": "2026-02-19T11:14:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a6f815749ef00030cadd8a0",
+      "ingameName": "ShyLaw",
+      "slug": "shylaw",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:24:39Z"
+    }
+  },
+  {
+    "id": "6994d5036a51e1b3b00324a7",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-17T20:52:19Z",
+    "updatedAt": "2026-06-20T11:51:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5dd0fbd089b2660171107460",
+      "ingameName": "Gamerhardx",
+      "slug": "gamerhardx",
+      "reputation": 18,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T18:15:48Z"
+    }
+  },
+  {
+    "id": "6994d70ca7a2008a73bbbcf3",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-02-17T21:01:00Z",
+    "updatedAt": "2026-02-17T21:01:00Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69589296a8a2730049909a94",
+      "ingameName": "Nuggito",
+      "slug": "nuggito",
+      "avatar": "user/avatar/69589296a8a2730049909a94.5d9b6cb2.webp",
+      "reputation": 4,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:55:57Z"
+    }
+  },
+  {
+    "id": "699829a6a7a2008a73bffcff",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-20T09:30:14Z",
+    "updatedAt": "2026-06-24T09:53:35Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69833bfc7d3045005bf13999",
+      "ingameName": "StefLancien",
+      "slug": "steflancien-9267",
+      "reputation": 9,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:23:04Z"
+    }
+  },
+  {
+    "id": "699dfa966a51e1b3b0106fbd",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-24T19:23:02Z",
+    "updatedAt": "2026-02-24T19:23:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67f7a6c2ff90160007e4c013",
+      "ingameName": "Just_A_Fool",
+      "slug": "just_a_fool",
+      "reputation": 29,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:23:05Z"
+    }
+  },
+  {
+    "id": "69a05369a7a2008a73cb244e",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-26T14:06:33Z",
+    "updatedAt": "2026-06-26T07:54:08Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57812168d3ffb60c2ac05d2d",
+      "ingameName": "Zaeld",
+      "slug": "zaeld",
+      "reputation": 57,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:46:54Z"
+    }
+  },
+  {
+    "id": "69a1af456a51e1b3b014fa31",
+    "type": "sell",
+    "platinum": 60,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-02-27T14:50:45Z",
+    "updatedAt": "2026-02-27T14:50:45Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64dbb0b01dd0eb0179782791",
+      "ingameName": "Teletubbies_Dipsy-LuckyG",
+      "slug": "teletubbies_dipsy-luckyg",
+      "avatar": "user/avatar/64dbb0b01dd0eb0179782791.79623d43.webp",
+      "reputation": 588,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:02:29Z"
+    }
+  },
+  {
+    "id": "69a35d82a7a2008a73cef702",
+    "type": "sell",
+    "platinum": 8,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-02-28T21:26:26Z",
+    "updatedAt": "2026-06-23T13:44:25Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67ddcab822cc9e0049a19f0d",
+      "ingameName": "eStar_99_Enpi",
+      "slug": "estar_99_enpi",
+      "avatar": "user/avatar/67ddcab822cc9e0049a19f0d.be1be1b8.webp",
+      "reputation": 21,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:30:08Z"
+    }
+  },
+  {
+    "id": "69ac54b36a51e1b3b02254cd",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-03-07T16:39:15Z",
+    "updatedAt": "2026-03-14T04:46:15Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67448f7da5039f0007b52561",
+      "ingameName": "tossleee",
+      "slug": "tossleee",
+      "avatar": "user/avatar/67448f7da5039f0007b52561.19461f3b.webp",
+      "reputation": 181,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:33:53Z"
+    }
+  },
+  {
+    "id": "69adca12a7a2008a73dbca8a",
+    "type": "sell",
+    "platinum": 12,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-03-08T19:12:18Z",
+    "updatedAt": "2026-03-08T19:12:18Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6361343471a5c500f0aef151",
+      "ingameName": "KhaosEmbraced",
+      "slug": "khaosembraced",
+      "avatar": "user/avatar/6361343471a5c500f0aef151.0fcb15c0.webp",
+      "reputation": 26,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:46:48Z"
+    }
+  },
+  {
+    "id": "69af75de6a51e1b3b0265605",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-10T01:37:34Z",
+    "updatedAt": "2026-04-04T15:58:52Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5f500f5618ba210079293641",
+      "ingameName": "ElementNine",
+      "slug": "elementnine",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "de",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:53:16Z"
+    }
+  },
+  {
+    "id": "69b0461ca7a2008a73de8250",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-10T16:26:04Z",
+    "updatedAt": "2026-03-10T16:26:04Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "696bb05324b7900008d7ab55",
+      "ingameName": "Hensch82",
+      "slug": "hensch82",
+      "reputation": 187,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:25:06Z"
+    }
+  },
+  {
+    "id": "69b6d6f4a7a2008a73e5b96d",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 32,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-15T15:57:40Z",
+    "updatedAt": "2026-06-01T05:10:05Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67c99af133f7e0000944e759",
+      "ingameName": "TweetzPrime",
+      "slug": "tweetzprime",
+      "avatar": "user/avatar/67c99af133f7e0000944e759.7031fa62.webp",
+      "reputation": 97,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:05:30Z"
+    }
+  },
+  {
+    "id": "69bb69a9183b090681505be7",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-19T03:12:41Z",
+    "updatedAt": "2026-03-19T03:12:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64a69b7bef049529681e2bb6",
+      "ingameName": "AdamantiumBoy",
+      "slug": "adamantiumboy",
+      "avatar": "user/avatar/64a69b7bef049529681e2bb6.png?fd4f1d6e5807724604f5232f93b0432a",
+      "reputation": 476,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:56:02Z"
+    }
+  },
+  {
+    "id": "69c5440b795a0d8e54ad2b4b",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 11,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-26T14:34:51Z",
+    "updatedAt": "2026-06-09T20:24:22Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "61549f3877ed2e015b99f981",
+      "ingameName": "Lowtraps1",
+      "slug": "lowtraps1",
+      "reputation": 122,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:50:08Z"
+    }
+  },
+  {
+    "id": "69c54f2f6dcee099e12df64f",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 19,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-03-26T15:22:23Z",
+    "updatedAt": "2026-03-26T15:22:23Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c0575841fd5cd06b1afe737",
+      "ingameName": "Bizzo50",
+      "slug": "bizzo50",
+      "avatar": "user/avatar/5c0575841fd5cd06b1afe737.png?0e67b88806c1972597b51f08ae443487",
+      "reputation": 56,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:29:50Z"
+    }
+  },
+  {
+    "id": "69d11bda6dcee099e13c9b4a",
+    "type": "sell",
+    "platinum": 3,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-04T14:10:34Z",
+    "updatedAt": "2026-04-22T11:32:43Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57ab31640f313948990d4a26",
+      "ingameName": "donsenyor",
+      "slug": "donsenyor",
+      "reputation": 47,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:03:23Z"
+    }
+  },
+  {
+    "id": "69d3821e6dcee099e14019e2",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-06T09:51:26Z",
+    "updatedAt": "2026-06-27T11:51:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "622a6150c873850222a9cf5c",
+      "ingameName": "KingJak",
+      "slug": "kingjak",
+      "avatar": "user/avatar/622a6150c873850222a9cf5c.01ef0e33.webp",
+      "reputation": 43,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:56:12Z"
+    }
+  },
+  {
+    "id": "69db2362a5f84bde564f178c",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-12T04:45:22Z",
+    "updatedAt": "2026-04-12T09:38:57Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69a83c8e6254e4057dfe6a1c",
+      "ingameName": "Uu_SAlAs_uU",
+      "slug": "uu_salas_uu",
+      "avatar": "user/avatar/69a83c8e6254e4057dfe6a1c.f5cf8833.webp",
+      "reputation": 4,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:21:22Z"
+    }
+  },
+  {
+    "id": "69e0cbe8a5f84bde56585948",
+    "type": "sell",
+    "platinum": 29,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-04-16T11:45:44Z",
+    "updatedAt": "2026-04-20T10:39:03Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "615d79e0cc9e3e02bf60772d",
+      "ingameName": "SvenZephyr704",
+      "slug": "svenzephyr704",
+      "avatar": "user/avatar/615d79e0cc9e3e02bf60772d.png?7cbe10f3b8826b6c972e23ccf2fd1bff",
+      "reputation": 944,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:58:17Z"
+    }
+  },
+  {
+    "id": "69e3cac6bde90925afc9ff8c",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-18T18:17:42Z",
+    "updatedAt": "2026-04-18T18:17:42Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "657419055d2df01f747ac41e",
+      "ingameName": "FoolCoffee",
+      "slug": "foolcoffee",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:14:46Z"
+    }
+  },
+  {
+    "id": "69e3d6d34582fd9cae54ab68",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-18T19:09:07Z",
+    "updatedAt": "2026-04-18T19:09:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6894547fc2414c009d05fd90",
+      "ingameName": "L0neWarr10r",
+      "slug": "l0newarr10r",
+      "avatar": "user/avatar/6894547fc2414c009d05fd90.png?7208eb114fe114821b06dc1c2bf84574",
+      "reputation": 5,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:09:00Z"
+    }
+  },
+  {
+    "id": "69e6bfdabde90925afcee466",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-04-21T00:07:54Z",
+    "updatedAt": "2026-06-25T03:42:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "688ae4152a87dd00077d4d7c",
+      "ingameName": "JohnnyBravo83",
+      "slug": "johnnybravo83",
+      "reputation": 13,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T05:02:50Z"
+    }
+  },
+  {
+    "id": "69e77c1bbde90925afcff78d",
+    "type": "sell",
+    "platinum": 24,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-21T13:31:07Z",
+    "updatedAt": "2026-04-21T13:31:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6633436dda67ec0008198615",
+      "ingameName": "Tornado_3RB",
+      "slug": "tornado-3rb",
+      "avatar": "user/avatar/6633436dda67ec0008198615.bfe5d47b.webp",
+      "reputation": 825,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:01:53Z"
+    }
+  },
+  {
+    "id": "69e79c0a4582fd9cae5aad6d",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-21T15:47:22Z",
+    "updatedAt": "2026-06-02T04:47:34Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b09e268f30ec4013082895b",
+      "ingameName": "Ittrix",
+      "slug": "ittrix",
+      "reputation": 7,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T05:36:36Z"
+    }
+  },
+  {
+    "id": "69ec705fa2ed6afbb64b4ff7",
+    "type": "sell",
+    "platinum": 150,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-04-25T07:42:23Z",
+    "updatedAt": "2026-04-25T07:42:23Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d9430bf6c5704062ff8fb25",
+      "ingameName": "Acceptance",
+      "slug": "acceptance",
+      "avatar": "user/avatar/5d9430bf6c5704062ff8fb25.png?f44242d33706610904033b54151e5219",
+      "reputation": 741,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:46:17Z"
+    }
+  },
+  {
+    "id": "69ed3a5ba2ed6afbb64c983a",
+    "type": "sell",
+    "platinum": 40,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-04-25T22:04:11Z",
+    "updatedAt": "2026-04-25T22:04:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67fa847a3b988a00093f1d87",
+      "ingameName": "Nvgibator",
+      "slug": "nvgibator",
+      "avatar": "user/avatar/67fa847a3b988a00093f1d87.0291ab9f.webp",
+      "reputation": 1477,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:12:39Z"
+    }
+  },
+  {
+    "id": "69f04790a2ed6afbb65108db",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-28T05:37:20Z",
+    "updatedAt": "2026-04-28T05:37:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "600c3839439a8702baaabb3b",
+      "ingameName": ".Tigi.",
+      "slug": "tigi",
+      "reputation": 15,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:47:55Z"
+    }
+  },
+  {
+    "id": "69f2815ca2ed6afbb653e7bf",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-04-29T22:08:28Z",
+    "updatedAt": "2026-04-29T22:08:28Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69c63ff7a7d88f0142f6270d",
+      "ingameName": "Skulpture",
+      "slug": "skulpture",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:27:05Z"
+    }
+  },
+  {
+    "id": "69f4e0b0c4f5385570c5ef2f",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-01T17:19:44Z",
+    "updatedAt": "2026-06-20T11:52:28Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "692ca4367692ac00371de628",
+      "ingameName": "IzzariyA",
+      "slug": "izzariya",
+      "avatar": "user/avatar/692ca4367692ac00371de628.a7611870.webp",
+      "reputation": 29,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:26:51Z"
+    }
+  },
+  {
+    "id": "69f69cc6c4f5385570c8a698",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-03T00:54:30Z",
+    "updatedAt": "2026-06-20T22:23:59Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6914344c8aae360009673bb7",
+      "ingameName": "KaySavii",
+      "slug": "kaysavii",
+      "reputation": 8,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:52:29Z"
+    }
+  },
+  {
+    "id": "69f79559a2ed6afbb65b1b6b",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-03T18:35:05Z",
+    "updatedAt": "2026-06-29T21:38:16Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c5fabb9a0ffbe05ae1aa1df",
+      "ingameName": "GuciaraGT3",
+      "slug": "guciaragt3",
+      "avatar": "user/avatar/5c5fabb9a0ffbe05ae1aa1df.png?a108ee1085730ea9b31ad4357acf88c3",
+      "reputation": 4556,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T22:07:53Z"
+    }
+  },
+  {
+    "id": "69f797d8a2ed6afbb65b1fbc",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-03T18:45:44Z",
+    "updatedAt": "2026-06-25T11:53:14Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66a15695b7f0430008a4298b",
+      "ingameName": "NasMnogo",
+      "slug": "nasmnogo",
+      "reputation": 6,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T11:59:51Z"
+    }
+  },
+  {
+    "id": "69f7fb53a2ed6afbb65ba7d3",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 17,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-04T01:50:11Z",
+    "updatedAt": "2026-05-04T01:50:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "691906771c2cfa000a3e6372",
+      "ingameName": "Warrender",
+      "slug": "warrender",
+      "reputation": 19,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:00:38Z"
+    }
+  },
+  {
+    "id": "69f80f04a2ed6afbb65bbb30",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-04T03:14:12Z",
+    "updatedAt": "2026-06-29T07:45:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "56de90f0d3ffb60a60fe4bc0",
+      "ingameName": "coredumperror",
+      "slug": "coredumperror",
+      "reputation": 85,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:40:07Z"
+    }
+  },
+  {
+    "id": "69f9c846a2ed6afbb65dd7a2",
+    "type": "sell",
+    "platinum": 13,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-05T10:36:54Z",
+    "updatedAt": "2026-05-05T10:36:54Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "698de1b35734ba0781000b14",
+      "ingameName": "Slazyyy",
+      "slug": "slazyyy",
+      "avatar": "user/avatar/698de1b35734ba0781000b14.2fbdede9.webp",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:48:10Z"
+    }
+  },
+  {
+    "id": "69fc79f9a2ed6afbb661140e",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-07T11:39:37Z",
+    "updatedAt": "2026-05-07T11:39:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65cf590f08f9320008ed9e17",
+      "ingameName": "anxjiety",
+      "slug": "anxjiety",
+      "avatar": "user/avatar/65cf590f08f9320008ed9e17.1707aaee.webp",
+      "reputation": 267,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:21:40Z"
+    }
+  },
+  {
+    "id": "69fc9987c4f5385570d07baa",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-07T13:54:15Z",
+    "updatedAt": "2026-05-12T10:15:13Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5bf1e237af87e8047a0caa3f",
+      "ingameName": "Prchimrav",
+      "slug": "prchimrav",
+      "reputation": 21,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:21:04Z"
+    }
+  },
+  {
+    "id": "6a03a15aa2ed6afbb66a048c",
+    "type": "sell",
+    "platinum": 90,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-12T21:53:30Z",
+    "updatedAt": "2026-05-12T21:53:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6824bf45fde1ef0427e442e1",
+      "ingameName": "Lys_Of_Damned",
+      "slug": "lys_of_damned",
+      "avatar": "user/avatar/6824bf45fde1ef0427e442e1.da4f2666.webp",
+      "reputation": 90,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:25:20Z"
+    }
+  },
+  {
+    "id": "6a059321c4f5385570dbf1a3",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-14T09:17:21Z",
+    "updatedAt": "2026-05-14T09:17:21Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "59fd3ebfc70b4d03d1e75492",
+      "ingameName": "WitblitsSA",
+      "slug": "witblitssa",
+      "reputation": 4,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:42:25Z"
+    }
+  },
+  {
+    "id": "6a059dd6a2ed6afbb66c4b45",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-14T10:03:02Z",
+    "updatedAt": "2026-06-04T05:41:03Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64a7c8e66c031428585d2f0b",
+      "ingameName": "rok623",
+      "slug": "rok623",
+      "avatar": "user/avatar/64a7c8e66c031428585d2f0b.png?1d7261d9b2c19d77d4617d9ed3868492",
+      "reputation": 701,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "ko",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T07:39:51Z"
+    }
+  },
+  {
+    "id": "6a05f15ec4f5385570dc6719",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-14T15:59:26Z",
+    "updatedAt": "2026-05-14T15:59:26Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69a478777d3045050badc180",
+      "ingameName": "Paranoia___",
+      "slug": "paranoia-2521",
+      "reputation": 37,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:54:42Z"
+    }
+  },
+  {
+    "id": "6a08f70da2ed6afbb670d6ba",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-16T23:00:29Z",
+    "updatedAt": "2026-05-16T23:00:29Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5ebaf93c25d5f00528f7a29d",
+      "ingameName": "Kirotii",
+      "slug": "kirotii",
+      "avatar": "user/avatar/5ebaf93c25d5f00528f7a29d.png?ae363988e0b6fd926c682cff51e779ab",
+      "reputation": 35,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-28T22:47:55Z"
+    }
+  },
+  {
+    "id": "6a0f896cc4f5385570e8e72e",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-21T22:38:36Z",
+    "updatedAt": "2026-05-21T22:38:36Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e774de85e5e890492994365",
+      "ingameName": "EeVeE133z",
+      "slug": "eevee133z",
+      "avatar": "user/avatar/5e774de85e5e890492994365.png?04cc494d0fcefbfb3fe2c576ac5b90d5",
+      "reputation": 137,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:27:05Z"
+    }
+  },
+  {
+    "id": "6a0f9350c4f5385570e8f05e",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-21T23:20:48Z",
+    "updatedAt": "2026-06-17T02:00:26Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63f0c1c571a7ca0cf470dc9c",
+      "ingameName": "AlexIsDead",
+      "slug": "alexisdead",
+      "avatar": "user/avatar/63f0c1c571a7ca0cf470dc9c.png?62460835dace2279b462cccbd7b670d4",
+      "reputation": 24,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T00:03:45Z"
+    }
+  },
+  {
+    "id": "6a110f60c4f5385570eaba8f",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-23T02:22:24Z",
+    "updatedAt": "2026-05-23T02:22:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68f4928a8a79590009e8eed7",
+      "ingameName": "Kraimir",
+      "slug": "kraimir",
+      "reputation": 117,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:27:01Z"
+    }
+  },
+  {
+    "id": "6a14386bc4f5385570eeb6b8",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-25T11:54:19Z",
+    "updatedAt": "2026-05-25T13:08:32Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e3e82888d57bf00bcb83a91",
+      "ingameName": "komfykat",
+      "slug": "komfykat",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "ru",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:17:48Z"
+    }
+  },
+  {
+    "id": "6a147255a2ed6afbb67eaa75",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-25T16:01:25Z",
+    "updatedAt": "2026-05-25T16:01:25Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68a4fe452d340f0009a3674c",
+      "ingameName": "PokiehlDTeller",
+      "slug": "pokiehldteller",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:09:01Z"
+    }
+  },
+  {
+    "id": "6a167461c4f5385570f15fe6",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 9,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-27T04:34:41Z",
+    "updatedAt": "2026-05-27T04:34:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6519d62d093f13053ba2e6cb",
+      "ingameName": "Yumali",
+      "slug": "yumali",
+      "avatar": "user/avatar/6519d62d093f13053ba2e6cb.43658faa.webp",
+      "reputation": 18,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:24:17Z"
+    }
+  },
+  {
+    "id": "6a18d39090a8bc914c0462e1",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-28T23:45:20Z",
+    "updatedAt": "2026-06-11T23:53:33Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60455c2729f04b025a4ac110",
+      "ingameName": "Oxomoco",
+      "slug": "oxomoco",
+      "avatar": "user/avatar/60455c2729f04b025a4ac110.0390ebaa.webp",
+      "reputation": 315,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:13:23Z"
+    }
+  },
+  {
+    "id": "6a18d391f43d99f711fb3557",
+    "type": "sell",
+    "platinum": 40,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-05-28T23:45:21Z",
+    "updatedAt": "2026-06-25T01:31:05Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60455c2729f04b025a4ac110",
+      "ingameName": "Oxomoco",
+      "slug": "oxomoco",
+      "avatar": "user/avatar/60455c2729f04b025a4ac110.0390ebaa.webp",
+      "reputation": 315,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:13:23Z"
+    }
+  },
+  {
+    "id": "6a193da190a8bc914c04d77a",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-29T07:17:53Z",
+    "updatedAt": "2026-05-29T07:18:24Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5ec59c6afa08dc05b53aa4a9",
+      "ingameName": "morningstar_666",
+      "slug": "morningstar-666",
+      "reputation": 30,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T06:25:37Z"
+    }
+  },
+  {
+    "id": "6a1a3408f43d99f711fcf85f",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-30T00:49:12Z",
+    "updatedAt": "2026-05-30T00:49:12Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68fba975c4dcef0009810a04",
+      "ingameName": "CastleTime",
+      "slug": "castletime",
+      "avatar": "user/avatar/68fba975c4dcef0009810a04.e372117b.webp",
+      "reputation": 7,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T12:56:05Z"
+    }
+  },
+  {
+    "id": "6a1ad49690a8bc914c06f4bf",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-30T12:14:14Z",
+    "updatedAt": "2026-05-30T12:14:14Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a08716c79087701c93489d0",
+      "ingameName": "FrostyBlaze2802",
+      "slug": "frostyblaze2802",
+      "reputation": 2,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:03:27Z"
+    }
+  },
+  {
+    "id": "6a1b370ef43d99f711fe3ea6",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-05-30T19:14:22Z",
+    "updatedAt": "2026-05-30T19:14:22Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64d3bad7f9156c03b8fe34bb",
+      "ingameName": "Xuhhh",
+      "slug": "xuhhh",
+      "avatar": "user/avatar/64d3bad7f9156c03b8fe34bb.1c27430a.webp",
+      "reputation": 67,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T15:26:36Z"
+    }
+  },
+  {
+    "id": "6a1e8ac190a8bc914c0b85e1",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-02T07:48:17Z",
+    "updatedAt": "2026-06-02T07:48:17Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5d741786ab136c03ca788154",
+      "ingameName": "dj741425470",
+      "slug": "dj741425470",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:22:36Z"
+    }
+  },
+  {
+    "id": "6a21deb990a8bc914c0f86d9",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-04T20:23:21Z",
+    "updatedAt": "2026-06-04T20:23:21Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "68898e351a9e8f00078390a5",
+      "ingameName": "ElCanas28",
+      "slug": "elcanas28",
+      "avatar": "user/avatar/68898e351a9e8f00078390a5.png?0575f7ac58bb2ea9fa3f80cebedafc53",
+      "reputation": 35,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T22:10:04Z"
+    }
+  },
+  {
+    "id": "6a22e5f8f43d99f71107260c",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-05T15:06:32Z",
+    "updatedAt": "2026-06-30T04:26:23Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69d17f7df11b6c03b84e2464",
+      "ingameName": "Tevura",
+      "slug": "tevura",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:18:42Z"
+    }
+  },
+  {
+    "id": "6a25249290a8bc914c13529a",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-07T07:58:10Z",
+    "updatedAt": "2026-06-07T07:58:10Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5dae9d8f934a4d087e59b5ab",
+      "ingameName": "SuzukaAsahina",
+      "slug": "suzukaasahina",
+      "avatar": "user/avatar/5dae9d8f934a4d087e59b5ab.png?b2b92fac5ba25d85f6964f05c7c98bd7",
+      "reputation": 169,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:39:35Z"
+    }
+  },
+  {
+    "id": "6a253bf090a8bc914c136d9c",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-07T09:37:52Z",
+    "updatedAt": "2026-06-07T09:37:52Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5cd934e9fc2db20d13e85f1b",
+      "ingameName": "Ryokkalz",
+      "slug": "ryokkalz",
+      "reputation": 8,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:04:31Z"
+    }
+  },
+  {
+    "id": "6a253ee0f43d99f71109e798",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-07T09:50:24Z",
+    "updatedAt": "2026-06-30T12:30:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b196ba0c34b9201c9a0900a",
+      "ingameName": "-VTP-Qirinoy",
+      "slug": "vtp-qirinoy",
+      "avatar": "user/avatar/5b196ba0c34b9201c9a0900a.png?edc7c52e17177c36aab96ffb253a7bf6",
+      "reputation": 415,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:47:40Z"
+    }
+  },
+  {
+    "id": "6a258c3890a8bc914c13d5cc",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-07T15:20:24Z",
+    "updatedAt": "2026-06-15T20:05:00Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a132062310c5e011098d52f",
+      "ingameName": "Slipknotianos",
+      "slug": "slipknotianos",
+      "reputation": 8,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T12:51:34Z"
+    }
+  },
+  {
+    "id": "6a26321e90a8bc914c14b1b5",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T03:08:14Z",
+    "updatedAt": "2026-06-08T03:08:14Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69f9149c1e9a6c0637aa1aa1",
+      "ingameName": "SlaveOfLite",
+      "slug": "slaveoflite",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T12:04:41Z"
+    }
+  },
+  {
+    "id": "6a265fbe90a8bc914c14dc08",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T06:22:54Z",
+    "updatedAt": "2026-06-08T06:22:54Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69dc881aaed204011a1b41e2",
+      "ingameName": "DanceStalker",
+      "slug": "dancestalker",
+      "reputation": 16,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:05:27Z"
+    }
+  },
+  {
+    "id": "6a266ee390a8bc914c14eb52",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T07:27:31Z",
+    "updatedAt": "2026-06-08T07:27:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60d45b6a6958f80238a501be",
+      "ingameName": "Awoo",
+      "slug": "awoo",
+      "avatar": "user/avatar/60d45b6a6958f80238a501be.6f6d619f.webp",
+      "reputation": 60,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T09:11:17Z"
+    }
+  },
+  {
+    "id": "6a26ac79f43d99f7110b8ca1",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T11:50:17Z",
+    "updatedAt": "2026-06-08T11:50:17Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a1b23783cddad002f8bd535",
+      "ingameName": "Timpsir",
+      "slug": "timpsir",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T03:45:08Z"
+    }
+  },
+  {
+    "id": "6a26ea4390a8bc914c1570d5",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T16:13:55Z",
+    "updatedAt": "2026-06-08T16:13:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a0a3b11f8ec2d0219953237",
+      "ingameName": "Gh0stwrlt3r",
+      "slug": "gh0stwrlt3r",
+      "reputation": 6,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:06:16Z"
+    }
+  },
+  {
+    "id": "6a26ea44f43d99f7110bd45e",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-08T16:13:56Z",
+    "updatedAt": "2026-06-08T16:13:56Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6773215f2323560009cc0d22",
+      "ingameName": "Necreous",
+      "slug": "necreous",
+      "avatar": "user/avatar/6773215f2323560009cc0d22.png?871a329575976b513d9b621bed585b77",
+      "reputation": 160,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:48:35Z"
+    }
+  },
+  {
+    "id": "6a282179f43d99f7110d26d3",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 18,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-09T14:21:45Z",
+    "updatedAt": "2026-06-24T15:24:14Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "60d09aa8851fd201f2b297cc",
+      "ingameName": "Xenos09",
+      "slug": "xenos09",
+      "avatar": "user/avatar/60d09aa8851fd201f2b297cc.b00d23ea.webp",
+      "reputation": 8,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:06:12Z"
+    }
+  },
+  {
+    "id": "6a2821e5f43d99f7110d2778",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 26,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-09T14:23:33Z",
+    "updatedAt": "2026-06-27T07:13:49Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "58fa04d70f313929c983ba3c",
+      "ingameName": "Astralyss",
+      "slug": "astralyss",
+      "avatar": "user/avatar/58fa04d70f313929c983ba3c.png?22176eeff7256ce577fdfac747acbbf4",
+      "reputation": 84,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T11:18:25Z"
+    }
+  },
+  {
+    "id": "6a28236b90a8bc914c16d0d3",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 38,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-09T14:30:03Z",
+    "updatedAt": "2026-06-18T11:08:53Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "57e1ca4c0f31391a3af497b8",
+      "ingameName": "Indalx",
+      "slug": "indalx",
+      "avatar": "user/avatar/57e1ca4c0f31391a3af497b8.png?caae619532ecc340107e7b7a29e5690c",
+      "reputation": 31,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T22:07:40Z"
+    }
+  },
+  {
+    "id": "6a28f5af90a8bc914c17c189",
+    "type": "sell",
+    "platinum": 13,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-10T05:27:11Z",
+    "updatedAt": "2026-06-18T06:12:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69fa5d20f8d011025f209baa",
+      "ingameName": "ExecutorAlpha",
+      "slug": "executoralpha",
+      "reputation": 17,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:44:57Z"
+    }
+  },
+  {
+    "id": "6a299c0390a8bc914c187697",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-10T17:16:51Z",
+    "updatedAt": "2026-06-10T17:16:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69f0bf90f8d0110106ce0dfa",
+      "ingameName": "GenshinImpactNO1",
+      "slug": "genshinimpactno1",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:02:12Z"
+    }
+  },
+  {
+    "id": "6a2ad4a3f43d99f7110ff601",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 3,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-11T15:30:43Z",
+    "updatedAt": "2026-06-11T15:30:43Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a244685fcf2f90093a337dc",
+      "ingameName": "SB9-Magicpanda",
+      "slug": "sb9-magicpanda",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:48:31Z"
+    }
+  },
+  {
+    "id": "6a2ba876101d503e3d4bf05e",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-12T06:34:30Z",
+    "updatedAt": "2026-06-12T06:34:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "62d19dc6f2b8880dc270b31e",
+      "ingameName": "_Mozey",
+      "slug": "mozey",
+      "avatar": "user/avatar/62d19dc6f2b8880dc270b31e.487b7e07.webp",
+      "reputation": 81,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:51:04Z"
+    }
+  },
+  {
+    "id": "6a2c4b6ad914e16b5579adc9",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-12T18:09:46Z",
+    "updatedAt": "2026-06-12T18:09:46Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "67ef5462a2c1fb0007596b62",
+      "ingameName": "Nezu918",
+      "slug": "nezu918",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:18:44Z"
+    }
+  },
+  {
+    "id": "6a2cca45d914e16b557a53ab",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-13T03:11:01Z",
+    "updatedAt": "2026-06-13T03:11:01Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64f297d75ce5b4017c2c4ed7",
+      "ingameName": "Tsuki_Noct_Rikka",
+      "slug": "tsuki_noct_rikka",
+      "avatar": "user/avatar/64f297d75ce5b4017c2c4ed7.png?9fe0475cbcab51b152c66a6bedb4c280",
+      "reputation": 219,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:33:00Z"
+    }
+  },
+  {
+    "id": "6a2d2555d914e16b557ab899",
+    "type": "sell",
+    "platinum": 45,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-13T09:39:33Z",
+    "updatedAt": "2026-06-13T09:39:33Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "619dfcfc8d2c0006b565a062",
+      "ingameName": "-SErendipity_",
+      "slug": "serendipity-3443",
+      "avatar": "user/avatar/619dfcfc8d2c0006b565a062.da3c5768.webp",
+      "reputation": 168,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:10:56Z"
+    }
+  },
+  {
+    "id": "6a2d5ab7d914e16b557afed5",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-13T13:27:19Z",
+    "updatedAt": "2026-06-13T13:27:19Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6048c5f9b0656b02b6bf9acc",
+      "ingameName": "Mana-Gane",
+      "slug": "mana-gane",
+      "avatar": "user/avatar/6048c5f9b0656b02b6bf9acc.22d3daf0.webp",
+      "reputation": 8,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:36:29Z"
+    }
+  },
+  {
+    "id": "6a2e2b6d101d503e3d4f1c6b",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-14T04:17:49Z",
+    "updatedAt": "2026-06-15T15:02:03Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a130a26bba403012e140089",
+      "ingameName": "CaptainZenith",
+      "slug": "captainzenith",
+      "avatar": "user/avatar/6a130a26bba403012e140089.77614d58.webp",
+      "reputation": 15,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:21:35Z"
+    }
+  },
+  {
+    "id": "6a2e4439d914e16b557c44a5",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-14T06:03:37Z",
+    "updatedAt": "2026-06-14T06:03:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "64d300bef24ecf0462084dfe",
+      "ingameName": "STFCTROTSH",
+      "slug": "stfctrotsh",
+      "avatar": "user/avatar/64d300bef24ecf0462084dfe.png?9f126cf5d7a533ca4bff774771087949",
+      "reputation": 6,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T08:56:11Z"
+    }
+  },
+  {
+    "id": "6a2eded5d914e16b557d089a",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-14T17:03:17Z",
+    "updatedAt": "2026-06-29T15:40:47Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5a7581e249ef0004085f2c1a",
+      "ingameName": "YaroLynx",
+      "slug": "yarolynx",
+      "reputation": 188,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T18:08:40Z"
+    }
+  },
+  {
+    "id": "6a2ff8ae101d503e3d5119bf",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-15T13:05:50Z",
+    "updatedAt": "2026-06-23T01:40:50Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6933d3b253177c0037f07d24",
+      "ingameName": "dongl1",
+      "slug": "dongl1",
+      "reputation": 2,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T19:16:00Z"
+    }
+  },
+  {
+    "id": "6a30a18b101d503e3d51dd5c",
+    "type": "sell",
+    "platinum": 3,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-16T01:06:19Z",
+    "updatedAt": "2026-06-16T01:06:19Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "62af948e9c3ab208db6c859c",
+      "ingameName": "KingZammy",
+      "slug": "kingzammy",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T04:26:51Z"
+    }
+  },
+  {
+    "id": "6a338df9d914e16b558234fe",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-18T06:19:37Z",
+    "updatedAt": "2026-06-18T06:19:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69e3d648c735ec02a5e18e10",
+      "ingameName": "CheapBowJobs",
+      "slug": "cheapbowjobs",
+      "reputation": 21,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T05:04:25Z"
+    }
+  },
+  {
+    "id": "6a35470b101d503e3d573801",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-19T13:41:31Z",
+    "updatedAt": "2026-06-19T13:41:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a2fe265663c5601113bfe07",
+      "ingameName": "weivi12",
+      "slug": "weivi12",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T10:37:00Z"
+    }
+  },
+  {
+    "id": "6a35dcced914e16b55855650",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-20T00:20:30Z",
+    "updatedAt": "2026-06-20T00:20:30Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "607cc02fe168df008f4e826f",
+      "ingameName": "bboywelker",
+      "slug": "bboywelker",
+      "reputation": 5,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "pt",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T11:45:25Z"
+    }
+  },
+  {
+    "id": "6a365a8d101d503e3d58be80",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-20T09:17:01Z",
+    "updatedAt": "2026-06-20T09:17:01Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6929ce777692ac00d313dba8",
+      "ingameName": "yigexiaoge",
+      "slug": "yigexiaoge",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:54:59Z"
+    }
+  },
+  {
+    "id": "6a3708b7101d503e3d59dae0",
+    "type": "sell",
+    "platinum": 30,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 3,
+    "visible": true,
+    "createdAt": "2026-06-20T21:40:07Z",
+    "updatedAt": "2026-06-20T21:40:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a09e4a5191dce0227539558",
+      "ingameName": "Boliop",
+      "slug": "boliop",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:45:53Z"
+    }
+  },
+  {
+    "id": "6a37be61d914e16b55881b19",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 11,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-21T10:35:13Z",
+    "updatedAt": "2026-06-28T10:23:07Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "66438817945432105dd9e726",
+      "ingameName": "xlPerfecTiioNz",
+      "slug": "xlperfectiionz",
+      "avatar": "user/avatar/66438817945432105dd9e726.png?5dac86c66ce1c6dcec3d30532073c621",
+      "reputation": 11,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:15:49Z"
+    }
+  },
+  {
+    "id": "6a380b9586fc399ad49ef3d7",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-21T16:04:37Z",
+    "updatedAt": "2026-06-21T16:04:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e9f00f5af098c00a9de25b2",
+      "ingameName": "MrPL4C3BO",
+      "slug": "mrpl4c3bo",
+      "avatar": "user/avatar/5e9f00f5af098c00a9de25b2.png?cd822f7a8bb5730ebd66315dbab554d9",
+      "reputation": 10,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:43:23Z"
+    }
+  },
+  {
+    "id": "6a3850af86fc399ad49f614e",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-21T20:59:27Z",
+    "updatedAt": "2026-06-21T20:59:27Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5acca80512434f0827cafa3e",
+      "ingameName": "devilord100",
+      "slug": "devilord100",
+      "avatar": "user/avatar/5acca80512434f0827cafa3e.ae4de499.webp",
+      "reputation": 209,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "ru",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T08:32:42Z"
+    }
+  },
+  {
+    "id": "6a38ee1786fc399ad4a017e1",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-22T08:11:03Z",
+    "updatedAt": "2026-06-22T08:11:03Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69c1c7e14a1f65016af83d6d",
+      "ingameName": "EnderDawn",
+      "slug": "enderdawn",
+      "avatar": "user/avatar/69c1c7e14a1f65016af83d6d.903ab0a9.webp",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-28T23:24:21Z"
+    }
+  },
+  {
+    "id": "6a39c37286fc399ad4a14a9d",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 25,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-22T23:21:22Z",
+    "updatedAt": "2026-06-30T08:00:25Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5cb5a312fc2db2077b6551d4",
+      "ingameName": "Ertjol",
+      "slug": "ertjol",
+      "avatar": "user/avatar/5cb5a312fc2db2077b6551d4.7b3183f6.webp",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:10:41Z"
+    }
+  },
+  {
+    "id": "6a39fc032202c9dc0ac487d1",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-23T03:22:43Z",
+    "updatedAt": "2026-06-23T03:22:43Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a32f7b2663c5601c02a794d",
+      "ingameName": "AN2-",
+      "slug": "an2",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T14:55:22Z"
+    }
+  },
+  {
+    "id": "6a3aa7c92202c9dc0ac572c0",
+    "type": "sell",
+    "platinum": 8,
+    "quantity": 12,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-23T15:35:37Z",
+    "updatedAt": "2026-06-23T15:35:37Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5e5a53665e5e89021af28446",
+      "ingameName": "QeeYe___",
+      "slug": "qeeye",
+      "reputation": 10,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:25:10Z"
+    }
+  },
+  {
+    "id": "6a3ab42d2202c9dc0ac58af8",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-23T16:28:29Z",
+    "updatedAt": "2026-06-23T16:28:29Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "589a9160d3ffb601bae413fc",
+      "ingameName": "MarvelMonkey35",
+      "slug": "marvelmonkey35",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T08:02:18Z"
+    }
+  },
+  {
+    "id": "6a3abe3c86fc399ad4a2a32e",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-23T17:11:24Z",
+    "updatedAt": "2026-06-30T18:46:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "699fe3ea7d30450463c77ed7",
+      "ingameName": "lChasovoyl",
+      "slug": "lchasovoyl",
+      "reputation": 3,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "ru",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T18:46:55Z"
+    }
+  },
+  {
+    "id": "6a3ae72b2202c9dc0ac5d863",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-23T20:06:03Z",
+    "updatedAt": "2026-06-27T18:43:40Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a2eedfb53147700e0a051d7",
+      "ingameName": "matback07",
+      "slug": "matback07",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "fr",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:46:50Z"
+    }
+  },
+  {
+    "id": "6a3b1f2886fc399ad4a32394",
+    "type": "sell",
+    "platinum": 7,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-24T00:04:56Z",
+    "updatedAt": "2026-06-24T00:04:56Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63fe8ce18ad752027123a528",
+      "ingameName": "Zummoner",
+      "slug": "zummoner",
+      "avatar": "user/avatar/63fe8ce18ad752027123a528.8830efbe.webp",
+      "reputation": 30,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T08:55:01Z"
+    }
+  },
+  {
+    "id": "6a3c1f1786fc399ad4a4744d",
+    "type": "sell",
+    "platinum": 6,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-24T18:16:55Z",
+    "updatedAt": "2026-06-24T18:16:55Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5c0bbfadd2b3110015fa3f09",
+      "ingameName": "Abuzy",
+      "slug": "abuzy",
+      "reputation": 29,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:19:53Z"
+    }
+  },
+  {
+    "id": "6a3e65022202c9dc0aca6c2c",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-26T11:39:46Z",
+    "updatedAt": "2026-06-26T11:39:46Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "641656f2ca85a401e1be2f1d",
+      "ingameName": "Penguiii",
+      "slug": "penguiii",
+      "avatar": "user/avatar/641656f2ca85a401e1be2f1d.png?f003a42c9d610c9926c9f95f6e0b9810",
+      "reputation": 14,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T01:40:38Z"
+    }
+  },
+  {
+    "id": "6a3e900886fc399ad4a780a1",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 8,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-26T14:43:20Z",
+    "updatedAt": "2026-06-26T14:43:20Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5f478b542ee60d0211bf694a",
+      "ingameName": "Martyrlord629",
+      "slug": "martyrlord629",
+      "reputation": 24,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-29T11:08:34Z"
+    }
+  },
+  {
+    "id": "6a3fef922202c9dc0accce22",
+    "type": "sell",
+    "platinum": 5,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-27T15:43:14Z",
+    "updatedAt": "2026-06-27T15:43:14Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69fc90196e477002a5d542f7",
+      "ingameName": "Pebu210",
+      "slug": "pebu210",
+      "reputation": 1,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T21:20:01Z"
+    }
+  },
+  {
+    "id": "6a40078486fc399ad4a9bba1",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 5,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-27T17:25:24Z",
+    "updatedAt": "2026-06-30T21:39:49Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "65b8d1277dfe65011baf0296",
+      "ingameName": "Fistamus",
+      "slug": "fistamus",
+      "avatar": "user/avatar/65b8d1277dfe65011baf0296.794fab60.webp",
+      "reputation": 23,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:28:52Z"
+    }
+  },
+  {
+    "id": "6a406eab2202c9dc0acd9b87",
+    "type": "sell",
+    "platinum": 20,
+    "quantity": 6,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-28T00:45:31Z",
+    "updatedAt": "2026-06-28T00:45:31Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69213464d3b6040009708484",
+      "ingameName": "MeetYouatDusk",
+      "slug": "meetyouatdusk",
+      "avatar": "user/avatar/69213464d3b6040009708484.41c958e2.webp",
+      "reputation": 44,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "zh-hans",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T13:14:06Z"
+    }
+  },
+  {
+    "id": "6a4126ec86fc399ad4ab5193",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 4,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-28T13:51:40Z",
+    "updatedAt": "2026-06-30T13:01:51Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69384ce51560b000f1262276",
+      "ingameName": "MAD_PRIME",
+      "slug": "mad_prime",
+      "avatar": "user/avatar/69384ce51560b000f1262276.47e91c10.webp",
+      "reputation": 81,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:02:52Z"
+    }
+  },
+  {
+    "id": "6a41b2192202c9dc0acf6d7f",
+    "type": "sell",
+    "platinum": 15,
+    "quantity": 7,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-28T23:45:29Z",
+    "updatedAt": "2026-06-28T23:45:29Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "63ed02f10d83a30eebc2aa80",
+      "ingameName": "FourNyne",
+      "slug": "fournyne",
+      "reputation": 53,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T01:46:48Z"
+    }
+  },
+  {
+    "id": "6a4256692202c9dc0ad01e12",
+    "type": "sell",
+    "platinum": 10,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-29T11:26:33Z",
+    "updatedAt": "2026-06-30T17:23:41Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "69ea43d3f8d0110043506d47",
+      "ingameName": "Swidis",
+      "slug": "swidis",
+      "reputation": 5,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "ingame",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T17:42:00Z"
+    }
+  },
+  {
+    "id": "6a42d10786fc399ad4ad4d75",
+    "type": "sell",
+    "platinum": 9,
+    "quantity": 2,
+    "perTrade": 1,
+    "rank": 0,
+    "visible": true,
+    "createdAt": "2026-06-29T20:09:43Z",
+    "updatedAt": "2026-06-29T20:09:43Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "6a131237f30e95011ecb3265",
+      "ingameName": "RAFIAZZ",
+      "slug": "rafiazz",
+      "avatar": "user/avatar/6a131237f30e95011ecb3265.3122ec9c.webp",
+      "reputation": 0,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T20:10:20Z"
+    }
+  },
+  {
+    "id": "6a4302d32202c9dc0ad1053c",
+    "type": "sell",
+    "platinum": 4,
+    "quantity": 1,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-29T23:42:11Z",
+    "updatedAt": "2026-06-29T23:42:11Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "59ddb3b9d3ffb64351405c83",
+      "ingameName": "AxiumX",
+      "slug": "axiumx",
+      "avatar": "user/avatar/59ddb3b9d3ffb64351405c83.png?25aaf4197f72369000ccc2da8c01a350",
+      "reputation": 9,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T16:13:15Z"
+    }
+  },
+  {
+    "id": "6a4365752202c9dc0ad17dea",
+    "type": "sell",
+    "platinum": 25,
+    "quantity": 30,
+    "perTrade": 1,
+    "rank": 5,
+    "visible": true,
+    "createdAt": "2026-06-30T06:43:01Z",
+    "updatedAt": "2026-06-30T06:47:02Z",
+    "itemId": "54a74454e779892d5e515600",
+    "user": {
+      "id": "5b5be483f80cc30050d99e2b",
+      "ingameName": "NickFromAccounting",
+      "slug": "nickfromaccounting",
+      "avatar": "user/avatar/5b5be483f80cc30050d99e2b.png?2917d1afda0289beb25e94d0fb9a09a1",
+      "reputation": 211,
+      "platform": "pc",
+      "crossplay": true,
+      "locale": "en",
+      "status": "offline",
+      "activity": {
+        "type": "UNKNOWN",
+        "details": "unknown"
+      },
+      "lastSeen": "2026-06-30T08:43:22Z"
+    }
+  }
+]
