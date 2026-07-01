@@ -1,168 +1,92 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
+  <meta charset="UTF-8">
+  <title>Warframe Market Dashboard</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #0d0d0d;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
 
-<meta charset="UTF-8">
+    h1 {
+      text-align: center;
+      color: #00ff99;
+    }
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    .category {
+      margin-top: 30px;
+    }
 
-<title>Warframe Trader PRO</title>
+    .item {
+      background: #1a1a1a;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
 
-<link rel="stylesheet" href="style.css">
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #00ffcc;
+    }
 
-<script src="/socket.io/socket.io.js"></script>
+    .price {
+      color: gold;
+    }
 
+    .info {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 
 <body>
-
-<header>
-
-<h1>WARFRAME TRADER PRO</h1>
-
-<p id="status">
-Conectando...
-</p>
-
-</header>
-
-<main>
-
-<section class="categoria">
-
-<h2>🏆 Top Global</h2>
-
-<table id="global">
-
-<thead>
-
-<tr>
-
-<th>Item</th>
-
-<th>Preço</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-</tbody>
-
-</table>
-
-</section>
-
-<section class="categoria">
-
-<h2>🟣 Warframe Prime Sets</h2>
-
-<table id="warframe">
-
-<thead>
-
-<tr>
-
-<th>Item</th>
-
-<th>Preço</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-</tbody>
-
-</table>
-
-</section>
-
-<section class="categoria">
-
-<h2>🔵 Weapon Prime Sets</h2>
-
-<table id="weapon">
-
-<thead>
-
-<tr>
-
-<th>Item</th>
-
-<th>Preço</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-</tbody>
-
-</table>
-
-</section>
-
-<section class="categoria">
-
-<h2>🟢 Mods</h2>
-
-<table id="mods">
-
-<thead>
-
-<tr>
-
-<th>Item</th>
-
-<th>Preço</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-</tbody>
-
-</table>
-
-</section>
-
-<section class="categoria">
-
-<h2>🟡 Arcanes</h2>
-
-<table id="arcanes">
-
-<thead>
-
-<tr>
-
-<th>Item</th>
-
-<th>Preço</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-</tbody>
-
-</table>
-
-</section>
-
-</main>
-
-<script src="app.js"></script>
+  <h1>🔥 WARFRAME FARM DASHBOARD</h1>
+
+  <div id="app"></div>
+
+<script>
+async function loadData() {
+  const res = await fetch("/data");
+  const data = await res.json();
+
+  const app = document.getElementById("app");
+  app.innerHTML = "";
+
+  for (const cat in data) {
+    const section = document.createElement("div");
+    section.className = "category";
+
+    section.innerHTML = `<h2>=== ${cat} ===</h2>`;
+
+    data[cat].slice(0, 20).forEach(item => {
+      const div = document.createElement("div");
+      div.className = "item";
+
+      div.innerHTML = `
+        <div class="title">🔥 ${item.name}</div>
+        <div class="price">💰 ${item.price} Platinum</div>
+        <div class="info">⏱ Farm: 15-20 min</div>
+        <div class="info">📍 Relíquias: Neo / Axi (auto sugerido)</div>
+        <div class="info">🎯 Missões: Ukko / Apollo / Hepit</div>
+        <div class="info">★★★★★ Alta demanda</div>
+      `;
+
+      section.appendChild(div);
+    });
+
+    app.appendChild(section);
+  }
+}
+
+loadData();
+setInterval(loadData, 30000); // atualiza sozinho
+</script>
 
 </body>
-
 </html>

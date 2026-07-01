@@ -1,76 +1,40 @@
-// 🚀 WARFRAME MARKET ENGINE + SERVER ONLINE
-
 const express = require("express");
 const axios = require("axios");
 
 const app = express();
 
 // -----------------------------
-// CONFIG
+// FRONTEND
+// -----------------------------
+app.use(express.static("public"));
+
+// -----------------------------
+// API URLS
 // -----------------------------
 const ITEMS_URL = "https://api.warframe.market/v2/items";
 const ORDERS_URL = "https://api.warframe.market/v2/orders/recent";
 
-let cache = {
-  items: [],
-  orders: [],
-  grouped: {},
-  lastUpdate: null,
-};
+// -----------------------------
+// CACHE
+// -----------------------------
+let items = [];
+let orders = [];
+let priceMap = new Map();
 
 // -----------------------------
-// ENGINE LOGIC
+// FETCH ITEMS
 // -----------------------------
-function getTags(item) {
-  if (!item) return [];
-  if (Array.isArray(item.tags)) return item.tags.map(t => t.toLowerCase());
-  return [];
-}
-
-function getCategory(item) {
-  const tags = getTags(item);
-  const has = (t) => tags.includes(t);
-
-  if (has("prime") && has("warframe")) {
-    if (has("set")) return "WARFRAME_PRIME_SET";
-    return "WARFRAME_PRIME_PART";
-  }
-
-  if (has("prime") && has("weapon")) {
-    if (has("set")) return "WEAPON_PRIME_SET";
-    return "WEAPON_PRIME_PART";
-  }
-
-  if (
-    has("mod") ||
-    has("archon") ||
-    has("riven") ||
-    has("galvanized") ||
-    has("primed") ||
-    has("arcane_enhancement")
-  ) {
-    if (has("riven")) return "MOD_RIVEN";
-    if (has("archon")) return "MOD_ARCHON";
-    if (has("arcane_enhancement")) return "ARCANE";
-    return "MODS";
-  }
-
-  return "OTHER";
+async function fetchItems() {
+  const res = await axios.get(ITEMS_URL);
+  return res.data.data || res.data || [];
 }
 
 // -----------------------------
-// FETCH DATA
+// FETCH ORDERS
 // -----------------------------
-async function fetchData() {
-  const [itemsRes, ordersRes] = await Promise.all([
-    axios.get(ITEMS_URL),
-    axios.get(ORDERS_URL),
-  ]);
-
-  const items = itemsRes.data.data || [];
-  const orders = ordersRes.data.data || [];
-
-  return { items, orders };
+async function fetchOrders() {
+  const res = await axios.get(ORDERS_URL);
+  return res.data.data || res.data || [];
 }
 
 // -----------------------------
@@ -94,85 +58,107 @@ function buildPriceMap(orders) {
 }
 
 // -----------------------------
-// UPDATE ENGINE
+// TAGS
 // -----------------------------
-async function updateEngine() {
-  try {
-    const { items, orders } = await fetchData();
-    const priceMap = buildPriceMap(orders);
-
-    const grouped = {
-      WARFRAME_PRIME_SET: [],
-      WARFRAME_PRIME_PART: [],
-      WEAPON_PRIME_SET: [],
-      WEAPON_PRIME_PART: [],
-      MOD_RIVEN: [],
-      MOD_ARCHON: [],
-      MODS: [],
-      ARCANE: [],
-      OTHER: [],
-    };
-
-    for (const item of items) {
-      const id = item.id;
-      if (!id) continue;
-
-      const category = getCategory(item);
-      const price = priceMap.get(id) || 0;
-
-      grouped[category].push({
-        name: item.slug, // 👈 nome ao invés de ID
-        category,
-        price,
-      });
-    }
-
-    cache.items = items.length;
-    cache.orders = orders.length;
-    cache.grouped = grouped;
-    cache.lastUpdate = new Date().toISOString();
-
-    console.log("🔄 Engine atualizado:", cache.lastUpdate);
-  } catch (err) {
-    console.error("❌ Erro engine:", err.message);
-  }
+function getTags(item) {
+  if (!item) return [];
+  if (Array.isArray(item.tags)) return item.tags.map(t => t.toLowerCase());
+  return [];
 }
 
 // -----------------------------
-// AUTO REFRESH (IMPORTANTE PRA 24H)
+// CATEGORY ENGINE
 // -----------------------------
-setInterval(updateEngine, 60 * 1000); // 1 min
+function getCategory(item) {
+  const tags = getTags(item);
+  const has = (t) => tags.includes(t);
+
+  if (has("prime") && has("warframe")) {
+    if (has("chassis") || has("neuroptics") || has("systems") || has("blueprint"))
+      return "WARFRAME_PRIME_PART";
+
+    if (has("set")) return "WARFRAME_PRIME_SET";
+  }
+
+  if (has("prime") && has("weapon")) {
+    if (has("set")) return "WEAPON_PRIME_SET";
+    return "WEAPON_PRIME_PART";
+  }
+
+  if (has("mod") || has("archon") || has("riven")) {
+    if (has("riven")) return "MOD_RIVEN";
+    if (has("archon")) return "MOD_ARCHON";
+    return "MODS";
+  }
+
+  if (has("arcane") || has("arcane_enhancement")) {
+    return "ARCANES";
+  }
+
+  return "OTHER";
+}
 
 // -----------------------------
-// ROUTES
+// ENGINE RUN
+// -----------------------------
+async function buildData() {
+  items = await fetchItems();
+  orders = await fetchOrders();
+
+  priceMap = buildPriceMap(orders);
+
+  const grouped = {
+    WARFRAME_PRIME_SET: [],
+    WARFRAME_PRIME_PART: [],
+    WEAPON_PRIME_SET: [],
+    WEAPON_PRIME_PART: [],
+    MODS: [],
+    MOD_ARCHON: [],
+    MOD_RIVEN: [],
+    ARCANES: [],
+    OTHER: [],
+  };
+
+  for (const item of items) {
+    const id = item.id;
+    if (!id) continue;
+
+    const category = getCategory(item);
+    const price = priceMap.get(id) || 0;
+
+    grouped[category].push({
+      name: item.slug.replace(/_/g, " "),
+      price,
+      category,
+    });
+  }
+
+  return grouped;
+}
+
+// -----------------------------
+// API
+// -----------------------------
+app.get("/data", async (req, res) => {
+  try {
+    const data = await buildData();
+    res.json(data);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "failed" });
+  }
+});
+
+// -----------------------------
+// HOME
 // -----------------------------
 app.get("/", (req, res) => {
   res.send("Warframe Engine ONLINE 🚀");
 });
 
-app.get("/api/data", (req, res) => {
-  res.json(cache);
-});
-
-app.get("/api/top/:category", (req, res) => {
-  const cat = req.params.category.toUpperCase();
-
-  const list = cache.grouped[cat] || [];
-
-  const top = list
-    .sort((a, b) => b.price - a.price)
-    .slice(0, 20);
-
-  res.json(top);
-});
-
-// -----------------------------
-// START SERVER
 // -----------------------------
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, async () => {
-  console.log("🚀 Servidor rodando na porta", PORT);
-
-  await updateEngine(); // inicializa na hora
+app.listen(PORT, () => {
+  console.log("Servidor rodando na porta", PORT);
 });
