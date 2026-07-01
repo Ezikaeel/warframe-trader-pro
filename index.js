@@ -3,16 +3,15 @@ const axios = require("axios");
 const fs = require("fs");
 
 const app = express();
-
-// ================= PORT RENDER =================
 const PORT = Number(process.env.PORT || 3000);
 
-// ================= CACHE FILES =================
+// ================= CACHE =================
 const CACHE_ITEMS = "./cache_items.json";
 const CACHE_RECENT = "./cache_recent.json";
+const CACHE_PRICES = "./cache_prices.json";
 
 // ================= HELPERS =================
-function loadCache(file) {
+function read(file) {
   try {
     if (!fs.existsSync(file)) return null;
     return JSON.parse(fs.readFileSync(file, "utf-8"));
@@ -21,83 +20,60 @@ function loadCache(file) {
   }
 }
 
-function saveCache(file, data) {
-  try {
-    fs.writeFileSync(file, JSON.stringify(data, null, 2));
-  } catch (e) {
-    console.log("cache error:", e.message);
-  }
+function write(file, data) {
+  fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
 
 // ================= API =================
 const ITEMS_URL = "https://api.warframe.market/v2/items";
 const RECENT_URL = "https://api.warframe.market/v2/orders/recent";
 
-// ================= UPDATE CACHE =================
-async function updateItemsCache() {
+// ================= UPDATE ITEMS (1x dia) =================
+async function updateItems() {
   try {
-    const res = await axios.get(ITEMS_URL, { timeout: 15000 });
-    saveCache(CACHE_ITEMS, res.data.data || []);
-    console.log("📦 CACHE ITEMS UPDATED");
+    const res = await axios.get(ITEMS_URL, { timeout: 20000 });
+    write(CACHE_ITEMS, res.data.data || []);
+    console.log("📦 ITEMS CACHE OK");
   } catch (e) {
     console.log("items error:", e.message);
   }
 }
 
-async function updateRecentCache() {
+// ================= UPDATE RECENT (1h) =================
+async function updateRecent() {
   try {
-    const res = await axios.get(RECENT_URL, { timeout: 15000 });
-    saveCache(CACHE_RECENT, res.data.data || []);
-    console.log("💰 CACHE RECENT UPDATED");
+    const res = await axios.get(RECENT_URL, { timeout: 20000 });
+    write(CACHE_RECENT, res.data.data || []);
+    console.log("💰 RECENT CACHE OK");
   } catch (e) {
     console.log("recent error:", e.message);
   }
 }
 
-// ================= PRICE LOGIC =================
-function getPriceFromRecent(id, recent) {
-  for (const o of recent || []) {
-    if (o.item_id === id) {
-      return o.platinum || null;
-    }
+// ================= PREBUILD PRICES (CRÍTICO) =================
+function buildPrices() {
+  const items = read(CACHE_ITEMS) || [];
+  const recent = read(CACHE_RECENT) || [];
+
+  const prices = {};
+
+  for (const item of items) {
+    const id = item.id;
+    if (!id) continue;
+
+    const order = recent.find(o => o.item_id === id);
+
+    prices[id] = order?.platinum || 0;
   }
-  return null;
+
+  write(CACHE_PRICES, prices);
+  console.log("⚡ PRICES CACHE BUILT");
 }
 
-async function getPriceFallback(id) {
-  try {
-    const res = await axios.get(
-      `https://api.warframe.market/v2/orders/itemId/${id}`,
-      { timeout: 15000 }
-    );
-
-    const orders = res.data.data || [];
-
-    let min = null;
-
-    for (const o of orders) {
-      const price = o.platinum || 0;
-      if (min === null || price < min) {
-        min = price;
-      }
-    }
-
-    return min || 0;
-  } catch {
-    return 0;
-  }
-}
-
-// ================= ENGINE =================
-async function buildDashboard() {
-  const items = loadCache(CACHE_ITEMS) || [];
-  const recent = loadCache(CACHE_RECENT) || [];
-
-  if (!items.length) {
-    return {
-      SYSTEM: [{ name: "Carregando cache...", price: 0 }]
-    };
-  }
+// ================= ENGINE (FAST ONLY) =================
+function buildDashboard() {
+  const items = read(CACHE_ITEMS) || [];
+  const prices = read(CACHE_PRICES) || {};
 
   const grouped = {};
 
@@ -105,23 +81,15 @@ async function buildDashboard() {
     const id = item.id;
     if (!id) continue;
 
-    const name = item.slug || "unknown";
-
     const category = (item.tags || []).includes("prime")
       ? "PRIME"
       : "OTHER";
 
-    let price = getPriceFromRecent(id, recent);
-
-    if (price === null) {
-      price = await getPriceFallback(id);
-    }
-
     if (!grouped[category]) grouped[category] = [];
 
     grouped[category].push({
-      name,
-      price
+      name: item.slug,
+      price: prices[id] || 0
     });
   }
 
@@ -136,56 +104,57 @@ async function buildDashboard() {
   return result;
 }
 
-// ================= SINGLE ROUTE (IMPORTANTE) =================
-app.get("/", async (req, res) => {
-  try {
-    const data = await buildDashboard();
+// ================= ROUTE ULTRA RÁPIDA =================
+app.get("/", (req, res) => {
+  const data = buildDashboard();
 
-    let html = `
-    <html>
-    <head>
-      <title>Warframe Farm Dashboard</title>
-      <style>
-        body { font-family: Arial; background:#111; color:#fff; padding:20px; }
-        h1 { color:#00ff99; }
-        h2 { color:#ffcc00; margin-top:30px; }
-        .item { background:#222; padding:10px; margin:8px 0; border-radius:8px; }
-      </style>
-    </head>
-    <body>
-      <h1>🔥 WARFRAME FARM DASHBOARD</h1>
-    `;
+  let html = `
+  <html>
+  <head>
+    <title>Warframe Farm Dashboard</title>
+    <style>
+      body { font-family: Arial; background:#111; color:#fff; padding:20px; }
+      h1 { color:#00ff99; }
+      h2 { color:#ffcc00; margin-top:25px; }
+      .item { background:#222; padding:10px; margin:8px 0; border-radius:8px; }
+    </style>
+  </head>
+  <body>
+    <h1>🔥 WARFRAME FARM DASHBOARD</h1>
+  `;
 
-    for (const cat in data) {
-      html += `<h2>${cat}</h2>`;
+  for (const cat in data) {
+    html += `<h2>${cat}</h2>`;
 
-      data[cat].forEach((item) => {
-        html += `
-          <div class="item">
-            🔥 <b>${item.name}</b><br/>
-            💰 ${item.price} Platinum
-          </div>
-        `;
-      });
-    }
-
-    html += `</body></html>`;
-
-    res.send(html);
-  } catch (e) {
-    res.send(`<h1>Erro</h1><pre>${e.message}</pre>`);
+    data[cat].forEach(i => {
+      html += `
+        <div class="item">
+          🔥 ${i.name}<br/>
+          💰 ${i.price} Platinum
+        </div>
+      `;
+    });
   }
+
+  html += "</body></html>";
+
+  res.send(html);
 });
 
-// ================= START SERVER =================
+// ================= STARTUP (NÃO BLOQUEIA) =================
 app.listen(PORT, "0.0.0.0", () => {
-  console.log("🚀 SERVER RUNNING ON PORT:", PORT);
+  console.log("🚀 SERVER RUNNING:", PORT);
 
-  // NÃO bloqueia Render
-  setTimeout(() => {
-    updateItemsCache();
-    updateRecentCache();
+  // 🔥 roda tudo em background
+  setTimeout(async () => {
+    await updateItems();
+    await updateRecent();
+    buildPrices();
   }, 1000);
 
-  setInterval(updateRecentCache, 60 * 60 * 1000);
+  // refresh leve
+  setInterval(async () => {
+    await updateRecent();
+    buildPrices();
+  }, 60 * 60 * 1000);
 });
